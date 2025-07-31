@@ -5,10 +5,12 @@ import Image from "next/image";
 type Props = {
   src: string;
   alt: string;
+  caption?: string;
   onClose: () => void;
   onNext: () => void;
   onPrev: () => void;
 };
+
 
 export default function Lightbox({ src, alt, onClose, onNext, onPrev }: Props) {
   const handleKey = useCallback(
@@ -43,6 +45,7 @@ export default function Lightbox({ src, alt, onClose, onNext, onPrev }: Props) {
             sizes="(max-width: 768px) 80vw, 800px"
           />
         </div>
+        
 
         {/* ← Pil venstre */}
         <button

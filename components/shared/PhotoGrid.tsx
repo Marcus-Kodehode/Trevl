@@ -10,26 +10,31 @@ type Props = {
 };
 
 export default function PhotoGrid({ basePath, count, altPrefix = "Bilde" }: Props) {
-  const images = Array.from({ length: count }, (_, i) => `${basePath}${i + 1}.webp`);
+  const images = Array.from({ length: count }, (_, i) => ({
+    src: `${basePath}${i + 1}.webp`,
+    caption: `${altPrefix} ${i + 1}`,
+  }));
+
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const handleClose = () => setActiveIndex(null);
-  const handleNext = () => setActiveIndex((i) => (i !== null ? (i + 1) % images.length : null));
+  const handleNext = () =>
+    setActiveIndex((i) => (i !== null ? (i + 1) % images.length : null));
   const handlePrev = () =>
     setActiveIndex((i) => (i !== null ? (i - 1 + images.length) % images.length : null));
 
   return (
     <>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-        {images.map((src, index) => (
+        {images.map((img, index) => (
           <div
-            key={src}
+            key={img.src}
             className="relative aspect-video rounded overflow-hidden cursor-pointer group"
             onClick={() => setActiveIndex(index)}
           >
             <Image
-              src={src}
-              alt={`${altPrefix} ${index + 1}`}
+              src={img.src}
+              alt={img.caption}
               fill
               className="object-cover group-hover:scale-105 transition-transform"
             />
@@ -39,8 +44,9 @@ export default function PhotoGrid({ basePath, count, altPrefix = "Bilde" }: Prop
 
       {activeIndex !== null && (
         <Lightbox
-          src={images[activeIndex]}
-          alt={`${altPrefix} ${activeIndex + 1}`}
+          src={images[activeIndex].src}
+          alt={images[activeIndex].caption}
+          caption={images[activeIndex].caption}
           onClose={handleClose}
           onNext={handleNext}
           onPrev={handlePrev}
