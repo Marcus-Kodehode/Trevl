@@ -1,130 +1,97 @@
 [
-  {
-    "filename": "amsterdam1.webp",
-    "caption": "Selfie på Gardermoen, klar for avreise"
-  },
-  {
-    "filename": "amsterdam2.webp",
-    "caption": "Brede kanaler flankert av trær og klassiske bygårder"
-  },
-  {
-    "filename": "amsterdam3.webp",
-    "caption": "Moderne arkitektur over vann i forretningsområdet"
-  },
-  {
-    "filename": "amsterdam4.webp",
-    "caption": "Lunsjpause med øl på en fargerik kafé"
-  },
-  {
-    "filename": "amsterdam5.webp",
-    "caption": "Park ved vannkanten med boligblokker i bakgrunnen"
-  },
-  {
-    "filename": "amsterdam6.webp",
-    "caption": "Theater Tuschinski opplyst i kveldsmørket"
-  },
-  {
-    "filename": "amsterdam7.webp",
-    "caption": "Klubbkveld med lys og musikk i sentrum"
-  },
-  {
-    "filename": "amsterdam8.webp",
-    "caption": "Klassisk kanalutsikt med tårn i bakgrunnen"
-  },
-  {
-    "filename": "amsterdam9.webp",
-    "caption": "Rød bro over kanalen omgitt av gamle bygårder"
-  },
-  {
-    "filename": "amsterdam10.webp",
-    "caption": "Selfie på Gardermoen, klar for avreise"
-  },
-  {
-    "filename": "amsterdam11.webp",
-    "caption": "På flyet med headset og et håpefullt blikk"
-  },
-  {
-    "filename": "amsterdam12.webp",
-    "caption": "Blikk mot kanal med grønne trær og bysilhuett"
-  },
-  {
-    "filename": "amsterdam13.webp",
-    "caption": "Bygårder pyntet med flagg og folkeliv"
-  },
-  {
-    "filename": "amsterdam14.webp",
-    "caption": "Utsikt fra hotellvindu med havn og båter"
-  },
-  {
-    "filename": "amsterdam15.webp",
-    "caption": "Sykkelparkert ved kanal, typisk Amsterdam-bilde"
-  },
-  {
-    "filename": "amsterdam16.webp",
-    "caption": "Pause ved kanalen med røyk og ro"
-  },
-  {
-    "filename": "amsterdam17.webp",
-    "caption": "Selfie i sola med blå himmel og vind i håret"
-  },
-  {
-    "filename": "amsterdam18.webp",
-    "caption": "Gatekatt i skyggen ved bil og trestubbe"
-  },
-  {
-    "filename": "amsterdam19.webp",
-    "caption": "Katt vandrer mot bygård med jernport"
-  },
-  {
-    "filename": "amsterdam20.webp",
-    "caption": "Frokost på hotell med egg og juice"
-  },
-  {
-    "filename": "amsterdam21.webp",
-    "caption": "Fargerike båter fortøyd langs stille kanal"
-  },
-  {
-    "filename": "amsterdam22.webp",
-    "caption": "Ny røykepause på bro i sentrum"
-  },
-  {
-    "filename": "amsterdam23.webp",
-    "caption": "En stille gate med fruktutsalg og flagg"
-  },
-  {
-    "filename": "amsterdam24.webp",
-    "caption": "Amsterdam Centraal i all sin arkitektoniske prakt"
-  },
-  {
-    "filename": "amsterdam25.webp",
-    "caption": "Kanalbilde med speilinger og grønn natur"
-  },
-  {
-    "filename": "amsterdam26.webp",
-    "caption": "Folk på balkongene, flagg henger stolt"
-  },
-  {
-    "filename": "amsterdam27.webp",
-    "caption": "Ved Red Light District – kanal og folkeliv"
-  },
-  {
-    "filename": "amsterdam28.webp",
-    "caption": "Sittende ved vannet, reflekterende øyeblikk"
-  },
-  {
-    "filename": "amsterdam29.webp",
-    "caption": "Nærbilde med et skrått smil i sola"
-  },
-  {
-    "filename": "amsterdam30.webp",
-    "caption": "Kveldsscene fra sentrum, livlig stemning"
-  },
-  {
-    "filename": "amsterdam31.webp",
-    "caption": "Båttur i kveldssol gjennom trange kanaler"
-  },
-  {
-    "filename": "amsterdam32.webp",
-    "caption": "Gammel trebåt ved husbåter i morgenlys"
-  }
+  { "filename": "amsterdam1.webp", 
+  "caption": "Ferdigpakket og spent – klar for avgang fra Gardermoen ✈️" },
+
+  { "filename": "amsterdam2.webp", 
+  "caption": "Et håpefullt blikk og headset på – reisen har begynt 🎧" },
+
+  { "filename": "amsterdam3.webp", 
+  "caption": "Grønt løv og glitrende vann – byen våkner ved kanalen 🌿" },
+
+  { "filename": "amsterdam4.webp",
+   "caption": "Røde murstein og vaiende flagg – liv mellom bygårdene 🎏" },
+
+  { "filename": "amsterdam5.webp",
+   "caption": "Morgenutsikt mot havn og båter – en ny dag i vente 🌅" },
+
+  { "filename": "amsterdam6.webp",
+   "caption": "Sykler, broer og vann – Amsterdam slik det skal være 🚲" },
+
+  { "filename": "amsterdam7.webp",
+   "caption": "En pause ved vannet med tankeflukt og røyk i hånda 🌬️" },
+
+  { "filename": "amsterdam8.webp",
+   "caption": "Sol i ansiktet, vinden i håret og frihetsfølelsen i kroppen ☀️" },
+
+  { "filename": "amsterdam9.webp",
+   "caption": "En gatekatt hviler i skyggen – byen deler rom med alle 🐾" },
+
+  { "filename": "amsterdam10.webp",
+   "caption": "Katt på vandring mellom stein og historie 🐈" },
+
+  { "filename": "amsterdam11.webp",
+   "caption": "Frokostfat med egg og juice – rolig start på eventyret 🍊" },
+
+  { "filename": "amsterdam12.webp",
+   "caption": "Båtene dupper stille, omgitt av farge og fred 🚤" },
+
+  { "filename": "amsterdam13.webp",
+   "caption": "Sigarett og stillhet – en liten bro og et stort øyeblikk 🚬" },
+
+  { "filename": "amsterdam14.webp",
+   "caption": "En smal gate med frukt, flagg og stille formiddag 🍇" },
+
+  { "filename": "amsterdam15.webp",
+   "caption": "Amsterdam Centraal – et slott av stein og symmetri 🏰" },
+
+  { "filename": "amsterdam16.webp",
+   "caption": "Speilbilder i kanalens grønne ro 💧" },
+
+  { "filename": "amsterdam17.webp",
+   "caption": "Stramt glass møter vannets myke speil – Amsterdam i ny drakt 🏙️" },
+
+  { "filename": "amsterdam18.webp",
+   "caption": "Selfie med løftet bryn og senkede skuldre – feriemodus aktivert 😌" },
+
+  { "filename": "amsterdam19.webp",
+   "caption": "Gul bordflate, øl i glasset og skjerm i fokus – byliv i pausemodus 🍻" },
+
+  { "filename": "amsterdam20.webp",
+   "caption": "Kveldslys over det storslåtte Tuschinski-teateret – art deco i live 🎭" },
+
+  { "filename": "amsterdam21.webp",
+   "caption": "Lys, røyk og rytme – natten pulserer i blått og rosa 🎶" },
+
+  { "filename": "amsterdam22.webp",
+   "caption": "Klassisk kanalmotiv med tårn i det fjerne og ro i vannet 🌤️" },
+
+  { "filename": "amsterdam23.webp", 
+    "caption": "Rød bro i horisonten, grønne trær i blikket – byen speiler seg selv 🌉" },
+
+  { "filename": "amsterdam24.webp",
+   "caption": "En stille stund ved kanalen – samtale, bris og gamle broer 🌬️" },
+
+  { "filename": "amsterdam25.webp",
+   "caption": "Anne Franks hus – mørk dør, dype spor, og kø i respekt 🕯️" },
+
+  { "filename": "amsterdam26.webp",
+   "caption": "Kongelig fasade under restaurering – Damplassen i et nytt kapittel 👷‍♂️" },
+
+  { "filename": "amsterdam27.webp",
+   "caption": "Solen skinner, shortsen er på – klar foran palasset ☀️" },
+
+  { "filename": "amsterdam28.webp",
+   "caption": "Bak ruten i 'The Jolly Joker' stiger røyk og latter opp 🎭" },
+
+  { "filename": "amsterdam29.webp",
+   "caption": "Et øyeblikk fanget i brosjyreform – gamle tårn og nye menyer 🏰" },
+
+  { "filename": "amsterdam30.webp",
+   "caption": "Solnedgang over sentrum – fasadene bader i varmt gull 🌇" },
+
+  { "filename": "amsterdam31.webp",
+   "caption": "Vinger over Nederland – farvel fra himmelen ✈️" },
+
+  { "filename": "amsterdam32.webp",
+   "caption": "Tilbake i bilsetet med minner i bagasjen og vind i blikket 🎧" }
 ]
