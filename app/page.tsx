@@ -26,6 +26,7 @@ export default function HomePage() {
           description="Turen er planlagt – bilder og minner kommer snart."
           link="/trips/praha"
           image="/images/cards/praha.png"
+          isComingSoon
         />
       </div>
     </main>
