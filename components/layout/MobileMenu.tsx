@@ -25,12 +25,15 @@ export default function MobileMenu() {
 
   return (
     <div className="relative sm:hidden" ref={menuRef}>
-      {/* Kebabmeny-ikon */}
-      <button onClick={() => setMenuOpen(!menuOpen)}>
+      {/* Kebab/X-ikonet – alltid synlig og plassert øverst */}
+      <button
+        onClick={() => setMenuOpen(!menuOpen)}
+        className="z-[999] fixed top-4 right-4 text-white"
+      >
         {menuOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
 
-      {/* Fullskjermsmeny */}
+      {/* Fullskjermsmenyen */}
       {menuOpen && (
         <div className="fixed inset-0 z-50 bg-zinc-950 text-white flex flex-col items-center justify-center gap-6 px-6 py-8">
           <Link
@@ -65,7 +68,6 @@ export default function MobileMenu() {
                 >
                   Fredrikstad
                 </Link>
-                {/* Flere destinasjoner her */}
               </div>
             )}
           </div>
