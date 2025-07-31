@@ -15,7 +15,7 @@ export default function HomePage() {
           image="/images/cards/amsterdam.png"
         />
         <AlbumCard
-          title="Fredrikstad – Juni 2025"
+          title="Fredrikstad – Juli 2025"
           description="Se bilder og opplevelser fra turen min til Fredrikstad."
           link="/trips/fredrikstad"
           image="/images/cards/fredrikstad.png"
