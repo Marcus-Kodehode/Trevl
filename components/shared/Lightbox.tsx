@@ -12,7 +12,7 @@ type Props = {
 };
 
 
-export default function Lightbox({ src, alt, onClose, onNext, onPrev }: Props) {
+export default function Lightbox({ src, alt, caption, onClose, onNext, onPrev }: Props) {
   const handleKey = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -45,7 +45,9 @@ export default function Lightbox({ src, alt, onClose, onNext, onPrev }: Props) {
             sizes="(max-width: 768px) 80vw, 800px"
           />
         </div>
-        
+        <p className="text-center text-sm text-zinc-300 mt-2">
+            {caption}
+        </p>
 
         {/* ← Pil venstre */}
         <button

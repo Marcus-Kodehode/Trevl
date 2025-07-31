@@ -8,11 +8,11 @@ export default function AmsterdamTripPage() {
       </h1>
       <p className="mb-4">Her kommer bilder og opplevelser fra turen min til Amsterdam!</p>
 
-      <PhotoGrid
-        basePath="/images/destinations/amsterdam-2025/amsterdam"
-        count={32}
-        altPrefix="Amsterdam bilde"
-      />
+    <PhotoGrid
+    basePath="/images/destinations/amsterdam-2025/"
+    captionFile="/data/captions/amsterdam-2025.json"
+    />
+
     </main>
   );
 }

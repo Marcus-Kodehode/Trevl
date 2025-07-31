@@ -1,21 +1,31 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Lightbox from "./Lightbox";
 
-type Props = {
-  basePath: string;
-  count: number;
-  altPrefix?: string;
+type ImageData = {
+  filename: string;
+  caption: string;
 };
 
-export default function PhotoGrid({ basePath, count, altPrefix = "Bilde" }: Props) {
-  const images = Array.from({ length: count }, (_, i) => ({
-    src: `${basePath}${i + 1}.webp`,
-    caption: `${altPrefix} ${i + 1}`,
-  }));
+type Props = {
+  basePath: string; // f.eks. "/images/destinations/amsterdam-2025/"
+  captionFile: string; // f.eks. "/data/captions/amsterdam-2025.json"
+};
 
+export default function PhotoGrid({ basePath, captionFile }: Props) {
+  const [images, setImages] = useState<ImageData[]>([]);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch(captionFile)
+      .then((res) => res.json())
+      .then((data: ImageData[]) => setImages(data))
+      .catch(() => {
+        console.warn("Kunne ikke laste bildetekster.");
+        setImages([]);
+      });
+  }, [captionFile]);
 
   const handleClose = () => setActiveIndex(null);
   const handleNext = () =>
@@ -25,26 +35,30 @@ export default function PhotoGrid({ basePath, count, altPrefix = "Bilde" }: Prop
 
   return (
     <>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-        {images.map((img, index) => (
-          <div
-            key={img.src}
-            className="relative aspect-video rounded overflow-hidden cursor-pointer group"
-            onClick={() => setActiveIndex(index)}
-          >
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+    {images.map(({ filename, caption }, index) => (
+        <div
+        key={filename}
+        className="cursor-pointer group"
+        onClick={() => setActiveIndex(index)}
+        >
+        <div className="relative aspect-video rounded overflow-hidden">
             <Image
-              src={img.src}
-              alt={img.caption}
-              fill
-              className="object-cover group-hover:scale-105 transition-transform"
+            src={`${basePath}${filename}`}
+            alt={caption}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform"
             />
-          </div>
-        ))}
-      </div>
+        </div>
+        <p className="mt-1 text-xs text-zinc-300 text-center">{caption}</p>
+        </div>
+    ))}
+    </div>
+
 
       {activeIndex !== null && (
         <Lightbox
-          src={images[activeIndex].src}
+          src={`${basePath}${images[activeIndex].filename}`}
           alt={images[activeIndex].caption}
           caption={images[activeIndex].caption}
           onClose={handleClose}
