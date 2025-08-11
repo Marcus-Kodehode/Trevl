@@ -2,18 +2,17 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import MobileMenu from "./MobileMenu";
+import useT from "@/i18n/messages/useT";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
+  const t = useT();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  // Lukk dropdown om man klikker utenfor
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target as Node)
-      ) {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
         setIsOpen(false);
       }
     };
@@ -24,62 +23,50 @@ export default function Header() {
   return (
     <header className="bg-zinc-950 text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-lime-400 tracking-tight">
           Trevl
         </Link>
 
-        {/* Desktop navigation */}
-        <nav className="hidden sm:flex items-center space-x-6 text-sm relative" ref={dropdownRef}>
+        {/* Desktop: lenker */}
+        <nav className="hidden sm:flex items-center gap-6 text-sm relative" ref={dropdownRef}>
           <Link href="/" className="hover:text-lime-400 transition">
-            Hjem
+            {t("header.home")}
           </Link>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="hover:text-lime-400 transition"
+            aria-haspopup="menu"
+            aria-expanded={isOpen}
           >
-            Destinasjoner ▾
+            {t("header.destinations")} ▾
           </button>
 
           {isOpen && (
             <div className="absolute top-full left-0 mt-2 bg-zinc-800 rounded shadow-lg py-2 w-48">
-
-            <Link
-                href="/trips/thailand"
-                className="block px-4 py-2 text-sm hover:bg-zinc-700"
-                onClick={() => setIsOpen(false)}
-              >
+              <Link href="/trips/thailand" className="block px-4 py-2 text-sm hover:bg-zinc-700" onClick={() => setIsOpen(false)}>
                 Thailand
-            </Link>
-
-              <Link
-                href="/trips/oslo"
-                className="block px-4 py-2 text-sm hover:bg-zinc-700"
-                onClick={() => setIsOpen(false)}
-              >
+              </Link>
+              <Link href="/trips/oslo" className="block px-4 py-2 text-sm hover:bg-zinc-700" onClick={() => setIsOpen(false)}>
                 Oslo
-            </Link>
-
-
-              <Link
-                href="/trips/amsterdam"
-                className="block px-4 py-2 text-sm hover:bg-zinc-700"
-                onClick={() => setIsOpen(false)}
-              >
+              </Link>
+              <Link href="/trips/amsterdam" className="block px-4 py-2 text-sm hover:bg-zinc-700" onClick={() => setIsOpen(false)}>
                 Amsterdam
               </Link>
-              <Link
-                href="/trips/fredrikstad"
-                className="block px-4 py-2 text-sm hover:bg-zinc-700"
-                onClick={() => setIsOpen(false)}
-              >
+              <Link href="/trips/fredrikstad" className="block px-4 py-2 text-sm hover:bg-zinc-700" onClick={() => setIsOpen(false)}>
                 Fredrikstad
               </Link>
             </div>
           )}
         </nav>
 
-        {/* Mobilnavigasjon */}
+        {/* Desktop: språkknapp til høyre */}
+        <div className="hidden sm:block">
+          <LanguageSwitcher />
+        </div>
+
+        {/* Mobil */}
         <div className="sm:hidden">
           <MobileMenu />
         </div>

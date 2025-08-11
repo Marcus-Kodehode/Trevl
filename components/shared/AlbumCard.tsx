@@ -1,4 +1,6 @@
+// components/shared/AlbumCard.tsx
 import Link from "next/link";
+import useT from "@/i18n/messages/useT";
 
 interface AlbumCardProps {
   title: string;
@@ -15,6 +17,8 @@ export default function AlbumCard({
   image,
   isComingSoon = false,
 }: AlbumCardProps) {
+  const t = useT();
+
   const cardContent = (
     <div
       className="relative text-white rounded-xl p-4 min-h-[150px] flex flex-col justify-end"
@@ -24,15 +28,19 @@ export default function AlbumCard({
         backgroundPosition: "center",
       }}
     >
-      {/* Overlay hvis turen er planlagt men ikke gjennomført */}
+      {/* Overlay when trip is not available yet */}
       {isComingSoon && (
-        <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center rounded-xl">
-          <p className="text-white text-xl font-semibold">Kommer snart</p>
+        <div className="absolute inset-0 bg-black/60 flex items-center justify-center rounded-xl">
+          <p className="text-white text-xl font-semibold">
+            {t("card.comingSoon")}
+          </p>
         </div>
       )}
 
-      <div className={`${isComingSoon ? "opacity-40 pointer-events-none" : ""}`}>
-        <h3 className="text-lg font-semibold text-lime-400 drop-shadow">{title}</h3>
+      <div className={isComingSoon ? "opacity-40 pointer-events-none" : ""}>
+        <h3 className="text-lg font-semibold text-lime-400 drop-shadow">
+          {title}
+        </h3>
         <p className="text-sm drop-shadow">{description}</p>
       </div>
     </div>
@@ -41,10 +49,7 @@ export default function AlbumCard({
   return isComingSoon ? (
     <div className="shadow-md rounded-xl">{cardContent}</div>
   ) : (
-    <Link
-      href={link}
-      className="shadow-md hover:shadow-lg transition duration-200 rounded-xl"
-    >
+    <Link href={link} className="shadow-md hover:shadow-lg transition duration-200 rounded-xl">
       {cardContent}
     </Link>
   );

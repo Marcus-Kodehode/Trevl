@@ -1,7 +1,9 @@
+// components/shared/PhotoGrid.tsx
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Lightbox from "./Lightbox";
+import useT from "@/i18n/messages/useT";
 
 type ImageData = {
   filename: string;
@@ -9,11 +11,12 @@ type ImageData = {
 };
 
 type Props = {
-  basePath: string; // f.eks. "/images/destinations/amsterdam-2025/"
-  captionFile: string; // f.eks. "/data/captions/amsterdam-2025.json"
+  basePath: string;      // e.g. "/images/destinations/amsterdam-2025/"
+  captionFile: string;   // e.g. "/data/captions/amsterdam-2025.json"
 };
 
 export default function PhotoGrid({ basePath, captionFile }: Props) {
+  const t = useT();
   const [images, setImages] = useState<ImageData[]>([]);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
@@ -22,39 +25,40 @@ export default function PhotoGrid({ basePath, captionFile }: Props) {
       .then((res) => res.json())
       .then((data: ImageData[]) => setImages(data))
       .catch(() => {
-        console.warn("Kunne ikke laste bildetekster.");
+        console.warn(t("grid.loadError"));
         setImages([]);
       });
-  }, [captionFile]);
+  }, [captionFile, t]);
 
   const handleClose = () => setActiveIndex(null);
-  const handleNext = () =>
-    setActiveIndex((i) => (i !== null ? (i + 1) % images.length : null));
-  const handlePrev = () =>
-    setActiveIndex((i) => (i !== null ? (i - 1 + images.length) % images.length : null));
+  const handleNext  = () => setActiveIndex((i) => (i !== null ? (i + 1) % images.length : null));
+  const handlePrev  = () => setActiveIndex((i) => (i !== null ? (i - 1 + images.length) % images.length : null));
+
+  if (images.length === 0) {
+    return <p className="text-zinc-400">{t("grid.empty")}</p>;
+  }
 
   return (
     <>
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-    {images.map(({ filename, caption }, index) => (
-        <div
-        key={filename}
-        className="cursor-pointer group"
-        onClick={() => setActiveIndex(index)}
-        >
-        <div className="relative aspect-video rounded overflow-hidden">
-            <Image
-            src={`${basePath}${filename}`}
-            alt={caption}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform"
-            />
-        </div>
-        <p className="mt-1 text-xs text-zinc-300 text-center">{caption}</p>
-        </div>
-    ))}
-    </div>
-
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        {images.map(({ filename, caption }, index) => (
+          <div
+            key={filename}
+            className="cursor-pointer group"
+            onClick={() => setActiveIndex(index)}
+          >
+            <div className="relative aspect-video rounded overflow-hidden">
+              <Image
+                src={`${basePath}${filename}`}
+                alt={caption}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform"
+              />
+            </div>
+            <p className="mt-1 text-xs text-zinc-300 text-center">{caption}</p>
+          </div>
+        ))}
+      </div>
 
       {activeIndex !== null && (
         <Lightbox

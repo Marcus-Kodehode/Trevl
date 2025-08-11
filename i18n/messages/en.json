@@ -1,0 +1,22 @@
+{
+  "header": { "home": "Home", "destinations": "Destinations" },
+  "home": {
+    "title": "My travel diary",
+    "thailand_desc": "See photos and moments from my trip to Thailand.",
+    "oslo_desc": "See photos and moments from my trip to Oslo.",
+    "amsterdam_desc": "See photos and moments from my trip to Amsterdam.",
+    "fredrikstad_desc": "See photos and moments from my trip to Fredrikstad.",
+    "coming_soon": "Trip planned — photos and memories coming soon."
+  },
+  "card": { "comingSoon": "Coming soon" },
+  "grid": {
+    "loadError": "Failed to load captions.",
+    "empty": "No photos to show yet."
+  },
+  "lightbox": {
+    "next": "Next image",
+    "prev": "Previous image",
+    "close": "Close viewer"
+  },
+  "footer": { "copyright": "Built with ❤️ using Next.js & TypeScript" }
+}

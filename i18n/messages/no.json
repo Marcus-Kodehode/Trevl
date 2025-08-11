@@ -1,0 +1,22 @@
+{
+  "header": { "home": "Hjem", "destinations": "Destinasjoner" },
+  "home": {
+    "title": "Feriedagboken min",
+    "thailand_desc": "Se bilder og opplevelser fra turen min til Thailand.",
+    "oslo_desc": "Se bilder og opplevelser fra turen min til Oslo.",
+    "amsterdam_desc": "Se bilder og opplevelser fra turen min til Amsterdam.",
+    "fredrikstad_desc": "Se bilder og opplevelser fra turen min til Fredrikstad.",
+    "coming_soon": "Turen er planlagt – bilder og minner kommer snart."
+  },
+  "card": { "comingSoon": "Kommer snart" },
+  "grid": {
+    "loadError": "Kunne ikke laste bildetekster.",
+    "empty": "Ingen bilder å vise ennå."
+  },
+  "lightbox": {
+    "next": "Neste bilde",
+    "prev": "Forrige bilde",
+    "close": "Lukk visning"
+  },
+  "footer": { "copyright": "Bygget med ❤️ i Next.js & TypeScript" }
+}
