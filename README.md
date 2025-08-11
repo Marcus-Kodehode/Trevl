@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="public/images/logo.png" alt="Trevl Logo" width="200"/>
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="public/images/logo-sunset.png" alt="Trevl Sunset Logo" width="200"/>
+</p>
 
-First, run the development server:
+# 🌴 Trevl – Din digitale reisefotodagbok
+
+Velkommen til **Trevl** – en moderne, flerspråklig fotoalbum-nettside laget med **Next.js**, **TypeScript** og **Tailwind CSS**.  
+Her kan du samle, organisere og dele bilder og minner fra dine reiser på en enkel, stilig og responsiv måte.
+
+---
+
+## 🧭 Hva er dette prosjektet?
+
+Trevl er laget for å være din personlige digitale reisefortelling.  
+Den støtter flere språk, viser album for hvert reisemål og gir en estetisk, brukervennlig opplevelse.
+
+---
+
+## 🚀 Kom i gang
+
+### 1. Klon prosjektet
+
+```bash
+git clone https://github.com/dittbrukernavn/trevl.git
+cd trevl
+```
+
+### 2. Installer avhengigheter
+
+```bash
+npm install
+```
+
+### 3. Start utviklingsserveren
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Åpne [http://localhost:3000](http://localhost:3000) i nettleseren din.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Teknologier brukt
 
-## Learn More
+- **Next.js** – React-rammeverk med SSR og filbasert routing
+- **TypeScript** – Statisk typet JavaScript
+- **Tailwind CSS** – Utility-first stilark
+- **React Context API** – For språk- og datahåndtering
+- **JSON-basert oversettelse** – Enkel i18n-struktur
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🗂️ Prosjektstruktur
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+trevl/
+├── app/                     # Sider og routing
+├── components/              # UI- og layoutkomponenter
+├── public/                   # Bilder og statiske filer
+│   ├── images/               # Reisebilder og logoer
+│   └── data/captions/        # Bildetekstfiler (per språk)
+├── styles/                   # Globale stilark
+├── package.json              # Scripts og avhengigheter
+└── tailwind.config.js        # Tailwind-konfigurasjon
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📸 Eksempel på nettsiden
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  <img src="public/images/trevl-screenshot.png" alt="Trevl-skjermbilde" width="500"/>
+</p>
+
+---
+
+## ✨ Hva inneholder siden?
+
+- 🌍 Flerspråklig støtte (Norsk, Engelsk, Spansk – flere kommer)
+- 🖼 Album per destinasjon
+- 📄 Bildetekster via JSON-filer
+- 📱 Responsivt design
+- ⚡ Lynrask navigasjon med Next.js
+- 🎨 Tilpassede logoer og tema
+
+---
+
+## 🔧 Videre utvikling
+
+Planer for fremtiden:
+- 🗺 Interaktivt kart over reisemål
+- 🔍 Søkefunksjon
+- 🎵 Mulighet for musikk/lydspor
+- 🖊 Adminpanel for opplasting
+
+---
+
+## ✍️ Signatur
+
+```
+//  One bug to find them,
+//  One fix to bring them all,
+//  And in the darkness bind them.
+```
+
+---
+
+## 📬 Kontakt
+
+Send meg gjerne en melding hvis du ønsker å samarbeide eller gi tilbakemelding!
