@@ -3,8 +3,9 @@
 import React, { createContext, useMemo, useState } from "react";
 import no from "./no.json";
 import en from "./en.json";
+import es from "./es.json";
 
-type Lang = "no" | "en";
+type Lang = "no" | "en" | "es";
 type Dict = Record<string, unknown>;
 
 // Simple dot-path getter: "home.title" → dict.home.title
@@ -17,7 +18,7 @@ function get(obj: Dict, path: string): unknown {
   }, obj);
 }
 
-const DICTS: Record<Lang, Dict> = { no, en };
+const DICTS: Record<Lang, Dict> = { no, en, es };
 
 type Ctx = {
   lang: Lang;

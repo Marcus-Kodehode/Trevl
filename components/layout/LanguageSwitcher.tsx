@@ -3,11 +3,12 @@
 import Image from "next/image";
 import { useI18n } from "@/i18n/messages/I18nProvider";
 
-type LangCode = "no" | "en";
+type LangCode = "no" | "en" | "es";
 
 const LANGS: { code: LangCode; label: string; flag: string }[] = [
   { code: "no", label: "Norsk",  flag: "/images/flags/no.png" }, // ⬅️ legg flagg her
   { code: "en", label: "English", flag: "/images/flags/gb.png" }, // ⬅️ eller /us.png om du vil
+  { code: "es", label: "Español", flag: "/images/flags/es.png" },
 ];
 
 export default function LanguageSwitcher({ compact = false }: { compact?: boolean }) {
