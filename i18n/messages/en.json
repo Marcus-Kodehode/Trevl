@@ -1,5 +1,12 @@
 {
   "header": { "home": "Home", "destinations": "Destinations" },
+  "nav": {
+  "thailand": "Thailand",
+  "oslo": "Oslo",
+  "amsterdam": "Amsterdam",
+  "fredrikstad": "Fredrikstad",
+  "prague": "Prague"
+},
   "home": {
     "title": "My travel diary",
     "thailand_title": "Thailand – 2015",

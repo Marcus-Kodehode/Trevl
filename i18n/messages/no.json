@@ -1,5 +1,12 @@
 {
   "header": { "home": "Hjem", "destinations": "Destinasjoner" },
+  "nav": {
+  "thailand": "Thailand",
+  "oslo": "Oslo",
+  "amsterdam": "Amsterdam",
+  "fredrikstad": "Fredrikstad",
+  "prague": "Praha"
+  },
   "home": {
     "title": "Min feriedagbok",
     "thailand_title": "Thailand – 2015",

@@ -1,10 +1,17 @@
-// components/layout/MobileMenu.tsx
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import useT from "@/i18n/messages/useT";
+
+const DESTS = [
+  { key: "thailand", href: "/trips/thailand" },
+  { key: "oslo", href: "/trips/oslo" },
+  { key: "amsterdam", href: "/trips/amsterdam" },
+  { key: "fredrikstad", href: "/trips/fredrikstad" },
+  // { key: "prague", href: "/trips/praha" },
+];
 
 export default function MobileMenu() {
   const t = useT();
@@ -42,23 +49,20 @@ export default function MobileMenu() {
 
             {dropdownOpen && (
               <div className="flex flex-col items-center gap-2 mt-2 text-lg text-zinc-300">
-                <Link href="/trips/thailand" onClick={() => setMenuOpen(false)} className="hover:text-white">
-                  Thailand
-                </Link>
-                <Link href="/trips/oslo" onClick={() => setMenuOpen(false)} className="hover:text-white">
-                  Oslo
-                </Link>
-                <Link href="/trips/amsterdam" onClick={() => setMenuOpen(false)} className="hover:text-white">
-                  Amsterdam
-                </Link>
-                <Link href="/trips/fredrikstad" onClick={() => setMenuOpen(false)} className="hover:text-white">
-                  Fredrikstad
-                </Link>
+                {DESTS.map(d => (
+                  <Link
+                    key={d.key}
+                    href={d.href}
+                    onClick={() => setMenuOpen(false)}
+                    className="hover:text-white"
+                  >
+                    {t(`nav.${d.key}`)}
+                  </Link>
+                ))}
               </div>
             )}
           </div>
 
-          {/* Språkvalg (kompakt) */}
           <LanguageSwitcher compact />
         </div>
       )}
