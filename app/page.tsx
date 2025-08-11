@@ -8,13 +8,20 @@ export default function HomePage() {
       </h1>
 
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
+        
+        <AlbumCard
+          title="Thailand – 2015"
+          description="Se bilder og opplevelser fra turen min til Thailand."
+          link="/trips/thailand"
+          image="/images/cards/thailand.png"
+        />
+        
         <AlbumCard
           title="Oslo – Juni/Juli 2024"
           description="Se bilder og opplevelser fra turen min til Oslo."
           link="/trips/oslo"
           image="/images/cards/oslo.png"
         />
-
 
         <AlbumCard
           title="Amsterdam – Juni 2025"
