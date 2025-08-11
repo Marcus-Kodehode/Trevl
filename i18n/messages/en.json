@@ -2,10 +2,15 @@
   "header": { "home": "Home", "destinations": "Destinations" },
   "home": {
     "title": "My travel diary",
+    "thailand_title": "Thailand – 2015",
     "thailand_desc": "See photos and moments from my trip to Thailand.",
+    "oslo_title": "Oslo – June/July 2024",
     "oslo_desc": "See photos and moments from my trip to Oslo.",
+    "amsterdam_title": "Amsterdam – June 2025",
     "amsterdam_desc": "See photos and moments from my trip to Amsterdam.",
+    "fredrikstad_title": "Fredrikstad – July 2025",
     "fredrikstad_desc": "See photos and moments from my trip to Fredrikstad.",
+    "praha_title": "Prague – October 2025",
     "coming_soon": "Trip planned — photos and memories coming soon."
   },
   "card": { "comingSoon": "Coming soon" },
@@ -18,8 +23,8 @@
     "prev": "Previous image",
     "close": "Close viewer"
   },
-  "footer": { "copyright": "Built with ❤️ using Next.js & TypeScript" 
-},
+  "footer": { "copyright": "Built with ❤️ using Next.js & TypeScript" },
+  
 "trip": {
   "thailand2015": {
     "title": "Thailand – 2015",
@@ -36,6 +41,6 @@
   "fredrikstad2025": {
     "title": "Fredrikstad – July 2025",
     "intro": "Here are photos and experiences from my trip to Fredrikstad!"
-}
-}
+    }
+  }
 }

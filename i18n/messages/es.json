@@ -2,16 +2,21 @@
   "header": { "home": "Inicio", "destinations": "Destinos" },
   "home": {
     "title": "Mi diario de viajes",
+    "thailand_title": "Tailandia – 2015",
     "thailand_desc": "Mira fotos y momentos de mi viaje a Tailandia.",
+    "oslo_title": "Oslo – Junio/Julio 2024",
     "oslo_desc": "Mira fotos y momentos de mi viaje a Oslo.",
+    "amsterdam_title": "Ámsterdam – Junio 2025",
     "amsterdam_desc": "Mira fotos y momentos de mi viaje a Ámsterdam.",
+    "fredrikstad_title": "Fredrikstad – Julio 2025",
     "fredrikstad_desc": "Mira fotos y momentos de mi viaje a Fredrikstad.",
+    "praha_title": "Praga – Octubre 2025",
     "coming_soon": "Viaje planeado — fotos y recuerdos próximamente."
   },
   "card": { "comingSoon": "Próximamente" },
   "grid": {
     "loadError": "No se pudieron cargar los subtítulos.",
-    "empty": "No hay fotos para mostrar aún."
+    "empty": "No hay fotos para mostrar todavía."
   },
   "lightbox": {
     "next": "Siguiente imagen",
@@ -19,22 +24,23 @@
     "close": "Cerrar visor"
   },
   "footer": { "copyright": "Construido con ❤️ usando Next.js & TypeScript" },
+  
   "trip": {
     "thailand2015": {
       "title": "Tailandia – 2015",
-      "intro": "¡Aquí tienes fotos y experiencias de mi viaje a Tailandia!"
+      "intro": "¡Aquí hay fotos y experiencias de mi viaje a Tailandia!"
     },
     "amsterdam2025": {
       "title": "Ámsterdam – Junio 2025",
-      "intro": "¡Aquí tienes fotos y experiencias de mi viaje a Ámsterdam!"
+      "intro": "¡Aquí hay fotos y experiencias de mi viaje a Ámsterdam!"
     },
     "oslo2024": {
       "title": "Oslo – Junio/Julio 2024",
-      "intro": "¡Aquí tienes fotos y experiencias de mi viaje a Oslo!"
+      "intro": "¡Aquí hay fotos y experiencias de mi viaje a Oslo!"
     },
     "fredrikstad2025": {
       "title": "Fredrikstad – Julio 2025",
-      "intro": "¡Aquí tienes fotos y experiencias de mi viaje a Fredrikstad!"
+      "intro": "¡Aquí hay fotos y experiencias de mi viaje a Fredrikstad!"
     }
   }
 }

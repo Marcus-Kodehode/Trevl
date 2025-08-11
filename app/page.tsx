@@ -13,41 +13,41 @@ export default function HomePage() {
 
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
 
-        <AlbumCard
-          title="Thailand – 2015"
-          description={t("home.thailand_desc")}
-          link="/trips/thailand"
-          image="/images/cards/thailand.png"
-        />
+      <AlbumCard
+        title={t("home.thailand_title")}
+        description={t("home.thailand_desc")}
+        link="/trips/thailand"
+        image="/images/cards/thailand.png"
+      />
 
-        <AlbumCard
-          title="Oslo – Juni/Juli 2024"
-          description={t("home.oslo_desc")}
-          link="/trips/oslo"
-          image="/images/cards/oslo.png"
-        />
+      <AlbumCard
+        title={t("home.oslo_title")}
+        description={t("home.oslo_desc")}
+        link="/trips/oslo"
+        image="/images/cards/oslo.png"
+      />
 
-        <AlbumCard
-          title="Amsterdam – Juni 2025"
-          description={t("home.amsterdam_desc")}
-          link="/trips/amsterdam"
-          image="/images/cards/amsterdam.png"
-        />
+      <AlbumCard
+        title={t("home.amsterdam_title")}
+        description={t("home.amsterdam_desc")}
+        link="/trips/amsterdam"
+        image="/images/cards/amsterdam.png"
+      />
 
-        <AlbumCard
-          title="Fredrikstad – Juli 2025"
-          description={t("home.fredrikstad_desc")}
-          link="/trips/fredrikstad"
-          image="/images/cards/fredrikstad.png"
-        />
+      <AlbumCard
+        title={t("home.fredrikstad_title")}
+        description={t("home.fredrikstad_desc")}
+        link="/trips/fredrikstad"
+        image="/images/cards/fredrikstad.png"
+      />
 
-        <AlbumCard
-          title="Praha – Oktober 2025"
-          description={t("home.coming_soon")}
-          link="/trips/praha"
-          image="/images/cards/praha.png"
-          isComingSoon
-        />
+      <AlbumCard
+        title={t("home.praha_title")}
+        description={t("home.coming_soon")}
+        link="/trips/praha"
+        image="/images/cards/praha.png"
+        isComingSoon
+      />
       </div>
     </main>
   );

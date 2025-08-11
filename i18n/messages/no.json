@@ -1,11 +1,16 @@
 {
   "header": { "home": "Hjem", "destinations": "Destinasjoner" },
   "home": {
-    "title": "Feriedagboken min",
+    "title": "Min feriedagbok",
+    "thailand_title": "Thailand – 2015",
     "thailand_desc": "Se bilder og opplevelser fra turen min til Thailand.",
+    "oslo_title": "Oslo – Juni/Juli 2024",
     "oslo_desc": "Se bilder og opplevelser fra turen min til Oslo.",
+    "amsterdam_title": "Amsterdam – Juni 2025",
     "amsterdam_desc": "Se bilder og opplevelser fra turen min til Amsterdam.",
+    "fredrikstad_title": "Fredrikstad – Juli 2025",
     "fredrikstad_desc": "Se bilder og opplevelser fra turen min til Fredrikstad.",
+    "praha_title": "Praha – Oktober 2025",
     "coming_soon": "Turen er planlagt – bilder og minner kommer snart."
   },
   "card": { "comingSoon": "Kommer snart" },
@@ -18,25 +23,24 @@
     "prev": "Forrige bilde",
     "close": "Lukk visning"
   },
-  "footer": { "copyright": "Bygget med ❤️ i Next.js & TypeScript" 
-},
-
-"trip": {
-  "thailand2015": {
-    "title": "Thailand – 2015",
-    "intro": "Her er bilder og opplevelser fra turen min til Thailand!"
-  },
-  "amsterdam2025": {
-    "title": "Amsterdam – Juni 2025",
-    "intro": "Her er bilder og opplevelser fra turen min til Amsterdam!"
-  },
-  "oslo2024": {
-    "title": "Oslo – Juni/Juli 2024",
-    "intro": "Her er bilder og opplevelser fra turen min til Oslo!"
-  },
-  "fredrikstad2025": {
-    "title": "Fredrikstad – Juli 2025",
-    "intro": "Her er bilder og opplevelser fra turen min til Fredrikstad!"
-}
-}
+  "footer": { "copyright": "Bygget med ❤️ ved bruk av Next.js & TypeScript" },
+  
+  "trip": {
+    "thailand2015": {
+      "title": "Thailand – 2015",
+      "intro": "Her er bilder og opplevelser fra turen min til Thailand!"
+    },
+    "amsterdam2025": {
+      "title": "Amsterdam – Juni 2025",
+      "intro": "Her er bilder og opplevelser fra turen min til Amsterdam!"
+    },
+    "oslo2024": {
+      "title": "Oslo – Juni/Juli 2024",
+      "intro": "Her er bilder og opplevelser fra turen min til Oslo!"
+    },
+    "fredrikstad2025": {
+      "title": "Fredrikstad – Juli 2025",
+      "intro": "Her er bilder og opplevelser fra turen min til Fredrikstad!"
+    }
+  }
 }
