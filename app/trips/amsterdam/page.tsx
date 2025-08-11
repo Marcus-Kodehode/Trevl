@@ -6,7 +6,7 @@ export default function AmsterdamTripPage() {
       <h1 className="text-3xl font-bold text-lime-500 mb-6">
         Amsterdam – Juni 2025
       </h1>
-      <p className="mb-4">Her kommer bilder og opplevelser fra turen min til Amsterdam!</p>
+      <p className="mb-4">Her er bilder og opplevelser fra turen min til Amsterdam!</p>
 
     <PhotoGrid
     basePath="/images/destinations/amsterdam-2025/"
