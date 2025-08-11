@@ -43,6 +43,16 @@ export default function Header() {
 
           {isOpen && (
             <div className="absolute top-full left-0 mt-2 bg-zinc-800 rounded shadow-lg py-2 w-48">
+
+              <Link
+                href="/trips/oslo"
+                className="block px-4 py-2 text-sm hover:bg-zinc-700"
+                onClick={() => setIsOpen(false)}
+              >
+                Oslo
+            </Link>
+
+
               <Link
                 href="/trips/amsterdam"
                 className="block px-4 py-2 text-sm hover:bg-zinc-700"

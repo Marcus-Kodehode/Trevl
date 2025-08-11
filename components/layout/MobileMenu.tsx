@@ -55,6 +55,15 @@ export default function MobileMenu() {
             {dropdownOpen && (
               <div className="flex flex-col items-center gap-2 mt-2 text-lg text-zinc-300">
                 <Link
+                  href="/trips/oslo"
+                  onClick={() => setMenuOpen(false)}
+                  className="hover:text-white"
+                >
+                  Oslo
+              </Link>
+
+                
+                <Link
                   href="/trips/amsterdam"
                   onClick={() => setMenuOpen(false)}
                   className="hover:text-white"
