@@ -21,10 +21,18 @@
   "footer": { "copyright": "Bygget med ❤️ i Next.js & TypeScript" 
 },
 
-  "trip": {
+"trip": {
   "thailand2015": {
     "title": "Thailand – 2015",
     "intro": "Her er bilder og opplevelser fra turen min til Thailand!"
+  },
+  "amsterdam2025": {
+    "title": "Amsterdam – Juni 2025",
+    "intro": "Her er bilder og opplevelser fra turen min til Amsterdam!"
+  },
+  "oslo2024": {
+    "title": "Oslo – Juni/Juli 2024",
+    "intro": "Her er bilder og opplevelser fra turen min til Oslo!"
   }
 }
 }
