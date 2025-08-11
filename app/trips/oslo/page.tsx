@@ -6,7 +6,7 @@ export default function OsloTripPage() {
       <h1 className="text-3xl font-bold text-lime-500 mb-6">
         Oslo – Juli/Juni 2024
       </h1>
-      <p className="mb-4">Her kommer bilder og opplevelser fra turen min til Oslo!</p>
+      <p className="mb-4">Her er bilder og opplevelser fra turen min til Oslo!</p>
 
       <PhotoGrid
         basePath="/images/destinations/oslo-2024/"
