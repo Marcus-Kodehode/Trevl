@@ -9,7 +9,7 @@ const LANGS: { code: LangCode; label: string; flag: string }[] = [
   { code: "no", label: "Norsk", flag: "/images/flags/no.png" },
   { code: "en", label: "English", flag: "/images/flags/gb.png" },
   { code: "es", label: "Español", flag: "/images/flags/es.png" },
-  { code: "zh-Hant", label: "繁體中文", flag: "/images/flags/zh.png" }, // ⬅️ Taiwan
+  { code: "zh-Hant", label: "繁體中文", flag: "/images/flags/tw.png" }, // ⬅️ Taiwan
 ];
 
 export default function LanguageSwitcher({
