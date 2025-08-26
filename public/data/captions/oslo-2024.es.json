@@ -1,46 +1,76 @@
 [
-  { "filename": "oslo1.webp",
-   "caption": "Primera parada – orden botánico bajo un sol brillante ☀️" },
+  {
+    "filename": "oslo1.webp",
+    "caption": "Primera parada – orden botánico bajo un sol brillante ☀️"
+  },
 
-  { "filename": "oslo2.webp",
-   "caption": "Filas rectas y verde a la vista – el propio plan de jardín de la naturaleza 📏" },
+  {
+    "filename": "oslo2.webp",
+    "caption": "Filas rectas y verde a la vista – el propio plan de jardín de la naturaleza 📏"
+  },
 
-  { "filename": "oslo3.webp",
-   "caption": "Encuentro con un mamut – parecía un poco frío, pero amistoso 🦣" },
+  {
+    "filename": "oslo3.webp",
+    "caption": "Encuentro con un mamut – parecía un poco frío, pero amistoso 🦣"
+  },
 
-  { "filename": "oslo4.webp",
-   "caption": "Zorro rojo posando – listo para su primer plano 🦊" },
+  {
+    "filename": "oslo4.webp",
+    "caption": "Zorro rojo posando – listo para su primer plano 🦊"
+  },
 
-  { "filename": "oslo5.webp",
-   "caption": "T-rex de cerca – definitivamente no alguien con quien te gustaría encontrarte en el bosque 🦖" },
+  {
+    "filename": "oslo5.webp",
+    "caption": "T-rex de cerca – definitivamente no alguien con quien te gustaría encontrarte en el bosque 🦖"
+  },
 
-  { "filename": "oslo6.webp",
-   "caption": "Fósil cara a cara – silencioso, pero aún impresionante 💀" },
+  {
+    "filename": "oslo6.webp",
+    "caption": "Fósil cara a cara – silencioso, pero aún impresionante 💀"
+  },
 
-  { "filename": "oslo7.webp",
-   "caption": "Dinosaurio con porte – erguido desde el Cretácico 🦕" },
+  {
+    "filename": "oslo7.webp",
+    "caption": "Dinosaurio con porte – erguido desde el Cretácico 🦕"
+  },
 
-  { "filename": "oslo8.webp",
-   "caption": "Exploración petrolera para principiantes – ahora lo entendemos 🔍" },
+  {
+    "filename": "oslo8.webp",
+    "caption": "Exploración petrolera para principiantes – ahora lo entendemos 🔍"
+  },
 
-  { "filename": "oslo9.webp",
-   "caption": "Palmeras en Oslo – pensamos que habíamos acabado en los trópicos 🌴" },
+  {
+    "filename": "oslo9.webp",
+    "caption": "Palmeras en Oslo – pensamos que habíamos acabado en los trópicos 🌴"
+  },
 
-  { "filename": "oslo10.webp",
-   "caption": "Tío en tierra de palmeras – un corto viaje de Tøyen a los trópicos 🌿" },
+  {
+    "filename": "oslo10.webp",
+    "caption": "Tío en tierra de palmeras – un corto viaje de Tøyen a los trópicos 🌿"
+  },
 
-  { "filename": "oslo11.webp",
-   "caption": "Amigo cactus – mejor mantener un poco de distancia 🌵" },
+  {
+    "filename": "oslo11.webp",
+    "caption": "Amigo cactus – mejor mantener un poco de distancia 🌵"
+  },
 
-  { "filename": "oslo12.webp",
-   "caption": "Selfi en la jungla – nivel de sudor: moderado 📸" },
+  {
+    "filename": "oslo12.webp",
+    "caption": "Selfi en la jungla – nivel de sudor: moderado 📸"
+  },
 
-  { "filename": "oslo13.webp",
-   "caption": "Estanque de lirios y calma de invernadero – un pequeño respiro 💧" },
+  {
+    "filename": "oslo13.webp",
+    "caption": "Estanque de lirios y calma de invernadero – un pequeño respiro 💧"
+  },
 
-  { "filename": "oslo14.webp",
-   "caption": "Tío en una aventura – escondido entre las hojas 🌱" },
-   
-  { "filename": "oslo15.webp",
-   "caption": "Lanza de flores en plena floración – la naturaleza lo da todo 💛" }
+  {
+    "filename": "oslo14.webp",
+    "caption": "Tío en una aventura – escondido entre las hojas 🌱"
+  },
+
+  {
+    "filename": "oslo15.webp",
+    "caption": "Lanza de flores en plena floración – la naturaleza lo da todo 💛"
+  }
 ]

@@ -1,100 +1,166 @@
 [
-  { "filename": "fredrikstad1.webp",
-   "caption": "Selfie på Brakerøya stasjon – hoodie, headset og klar for neste etappe 🎧" },
+  {
+    "filename": "fredrikstad1.webp",
+    "caption": "Selfie på Brakerøya stasjon – hoodie, headset og klar for neste etappe 🎧"
+  },
 
-  { "filename": "fredrikstad2.webp",
-   "caption": "Stillevogn og avslappet blikk – toget tikker sakte fremover 🚄" },
+  {
+    "filename": "fredrikstad2.webp",
+    "caption": "Stillevogn og avslappet blikk – toget tikker sakte fremover 🚄"
+  },
 
-  { "filename": "fredrikstad3.webp",
-   "caption": "Solbriller og skjev vinkel – ny by, nye inntrykk 🕶️" },
+  {
+    "filename": "fredrikstad3.webp",
+    "caption": "Solbriller og skjev vinkel – ny by, nye inntrykk 🕶️"
+  },
 
-  { "filename": "fredrikstad4.webp",
-   "caption": "Utsikt fra høyden – tårn og tak under grå sommerhimmel 🌆" },
+  {
+    "filename": "fredrikstad4.webp",
+    "caption": "Utsikt fra høyden – tårn og tak under grå sommerhimmel 🌆"
+  },
 
-  { "filename": "fredrikstad5.webp",
-   "caption": "Gatene er brede og trærne grønne – Fredrikstad i full bredde 🌳" },
+  {
+    "filename": "fredrikstad5.webp",
+    "caption": "Gatene er brede og trærne grønne – Fredrikstad i full bredde 🌳"
+  },
 
-  { "filename": "fredrikstad6.webp",
-   "caption": "Norges Bank – stengt, men solid som fjell 🏛️" },
+  {
+    "filename": "fredrikstad6.webp",
+    "caption": "Norges Bank – stengt, men solid som fjell 🏛️"
+  },
 
-  { "filename": "fredrikstad7.webp",
-   "caption": "Kirketårn bak trekroner – fredelig pusterom i grønt 🍃" },
+  {
+    "filename": "fredrikstad7.webp",
+    "caption": "Kirketårn bak trekroner – fredelig pusterom i grønt 🍃"
+  },
 
-  { "filename": "fredrikstad8.webp",
-   "caption": "Fontene og kirke, himmel og tid – alt står stille en liten stund ⛲" },
+  {
+    "filename": "fredrikstad8.webp",
+    "caption": "Fontene og kirke, himmel og tid – alt står stille en liten stund ⛲"
+  },
 
-  { "filename": "fredrikstad9.webp",
-   "caption": "Under tak og i ventemodus – en gammel båt venter på nytt liv ⚓" },
+  {
+    "filename": "fredrikstad9.webp",
+    "caption": "Under tak og i ventemodus – en gammel båt venter på nytt liv ⚓"
+  },
 
-  { "filename": "fredrikstad10.webp",
-   "caption": "Regntung himmel over elva – stille før kveld i gamlebyen 🌧️" },
+  {
+    "filename": "fredrikstad10.webp",
+    "caption": "Regntung himmel over elva – stille før kveld i gamlebyen 🌧️"
+  },
 
-  { "filename": "fredrikstad11.webp",
-   "caption": "Inngang til fortiden – et skilt og et lite pust av krigstid ⛩️" },
+  {
+    "filename": "fredrikstad11.webp",
+    "caption": "Inngang til fortiden – et skilt og et lite pust av krigstid ⛩️"
+  },
 
-  { "filename": "fredrikstad12.webp",
-   "caption": "Et gammelt vannhjul drømmer ved elvebredden – historie i sakte rotasjon 🌊" },
+  {
+    "filename": "fredrikstad12.webp",
+    "caption": "Et gammelt vannhjul drømmer ved elvebredden – historie i sakte rotasjon 🌊"
+  },
 
-  { "filename": "fredrikstad13.webp",
-   "caption": "Velstelte bed og stille elv – et grønt pusterom midt i byen 🌿" },
+  {
+    "filename": "fredrikstad13.webp",
+    "caption": "Velstelte bed og stille elv – et grønt pusterom midt i byen 🌿"
+  },
 
-  { "filename": "fredrikstad14.webp",
-   "caption": "Stein for stein – gamle murer hvisker historier fra festningens tid 🧱" },
+  {
+    "filename": "fredrikstad14.webp",
+    "caption": "Stein for stein – gamle murer hvisker historier fra festningens tid 🧱"
+  },
 
-  { "filename": "fredrikstad15.webp",
-   "caption": "Frisk vind og vid utsikt – med hodet høyt over elva 🍃" },
+  {
+    "filename": "fredrikstad15.webp",
+    "caption": "Frisk vind og vid utsikt – med hodet høyt over elva 🍃"
+  },
 
-  { "filename": "fredrikstad16.webp",
-   "caption": "Murverk og buer – restene av noe som en gang var 🔨" },
+  {
+    "filename": "fredrikstad16.webp",
+    "caption": "Murverk og buer – restene av noe som en gang var 🔨"
+  },
 
-  { "filename": "fredrikstad17.webp",
-   "caption": "Et lite smil midt i grønt – på tur med skuldrene senket 🌳" },
+  {
+    "filename": "fredrikstad17.webp",
+    "caption": "Et lite smil midt i grønt – på tur med skuldrene senket 🌳"
+  },
 
-  { "filename": "fredrikstad18.webp",
-   "caption": "Et skipsmast i skogen – fortidens linjer under trærne 🚢" },
+  {
+    "filename": "fredrikstad18.webp",
+    "caption": "Et skipsmast i skogen – fortidens linjer under trærne 🚢"
+  },
 
-  { "filename": "fredrikstad19.webp",
-   "caption": "Stein, kanon og kyst – festningen ser fortsatt ut over elva 💣" },
+  {
+    "filename": "fredrikstad19.webp",
+    "caption": "Stein, kanon og kyst – festningen ser fortsatt ut over elva 💣"
+  },
 
-  { "filename": "fredrikstad20.webp",
-   "caption": "Vid horisont og stille strøm – elva trekker deg rolig videre 🌊" },
+  {
+    "filename": "fredrikstad20.webp",
+    "caption": "Vid horisont og stille strøm – elva trekker deg rolig videre 🌊"
+  },
 
-  { "filename": "fredrikstad21.webp",
-   "caption": "Et rødt tak og rolig jord – her står tiden stille i veggene 🏡" },
-   
-  { "filename": "fredrikstad22.webp",
-   "caption": "Murer og grønt – ettermiddagen lener seg på gamle grunnmurer 🍺" },
+  {
+    "filename": "fredrikstad21.webp",
+    "caption": "Et rødt tak og rolig jord – her står tiden stille i veggene 🏡"
+  },
 
-  { "filename": "fredrikstad23.webp",
-   "caption": "Kode og kaldt i glasset – fredagskveld med flow og fokus 🍺💻" },
+  {
+    "filename": "fredrikstad22.webp",
+    "caption": "Murer og grønt – ettermiddagen lener seg på gamle grunnmurer 🍺"
+  },
 
-  { "filename": "fredrikstad24.webp",
-   "caption": "Seil og stillhet mellom trær – gammel sjøluft i ny form ⛵" },
+  {
+    "filename": "fredrikstad23.webp",
+    "caption": "Kode og kaldt i glasset – fredagskveld med flow og fokus 🍺💻"
+  },
 
-  { "filename": "fredrikstad25.webp",
-   "caption": "Et bitte lite hus på elva – som om noen har parkert sjela si der 🛶" },
+  {
+    "filename": "fredrikstad24.webp",
+    "caption": "Seil og stillhet mellom trær – gammel sjøluft i ny form ⛵"
+  },
 
-  { "filename": "fredrikstad26.webp",
-   "caption": "URDA og gamle linjer – et glimt av havn og hardt arbeid 🔍" },
+  {
+    "filename": "fredrikstad25.webp",
+    "caption": "Et bitte lite hus på elva – som om noen har parkert sjela si der 🛶"
+  },
 
-  { "filename": "fredrikstad27.webp",
-   "caption": "Trapper i stillhet – monumentet venter på morgensola ☁️" },
+  {
+    "filename": "fredrikstad26.webp",
+    "caption": "URDA og gamle linjer – et glimt av havn og hardt arbeid 🔍"
+  },
 
-  { "filename": "fredrikstad28.webp",
-   "caption": "Hvitt gjerde, grønt rundt – en sti for ro, uten mål eller mas 🌼" },
+  {
+    "filename": "fredrikstad27.webp",
+    "caption": "Trapper i stillhet – monumentet venter på morgensola ☁️"
+  },
 
-  { "filename": "fredrikstad29.webp",
-   "caption": "Siste glimt av grønt før avgang – en liten avskjed 🌲" },
+  {
+    "filename": "fredrikstad28.webp",
+    "caption": "Hvitt gjerde, grønt rundt – en sti for ro, uten mål eller mas 🌼"
+  },
 
-  { "filename": "fredrikstad30.webp",
-   "caption": "Tårnet over byen – en vokter i stein og stål 💂‍♂️" },
+  {
+    "filename": "fredrikstad29.webp",
+    "caption": "Siste glimt av grønt før avgang – en liten avskjed 🌲"
+  },
 
-  { "filename": "fredrikstad31.webp",
-   "caption": "Steinbuer og uferdige setninger – historien hvisker fra muren 🧱" },
+  {
+    "filename": "fredrikstad30.webp",
+    "caption": "Tårnet over byen – en vokter i stein og stål 💂‍♂️"
+  },
 
-  { "filename": "fredrikstad32.webp",
-   "caption": "Byen bader i kveld – kraner, lys og løfter om noe nytt 🌆" },
-   
-  { "filename": "fredrikstad33.webp",
-   "caption": "Bølger bak ripa – Fredrikstad siger sakte forbi 🚤" }
+  {
+    "filename": "fredrikstad31.webp",
+    "caption": "Steinbuer og uferdige setninger – historien hvisker fra muren 🧱"
+  },
+
+  {
+    "filename": "fredrikstad32.webp",
+    "caption": "Byen bader i kveld – kraner, lys og løfter om noe nytt 🌆"
+  },
+
+  {
+    "filename": "fredrikstad33.webp",
+    "caption": "Bølger bak ripa – Fredrikstad siger sakte forbi 🚤"
+  }
 ]

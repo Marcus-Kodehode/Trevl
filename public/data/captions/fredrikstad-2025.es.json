@@ -1,100 +1,166 @@
 [
-  { "filename": "fredrikstad1.webp",
-   "caption": "Selfi en la estación de Brakerøya – sudadera, auriculares y listo para la siguiente etapa 🎧" },
+  {
+    "filename": "fredrikstad1.webp",
+    "caption": "Selfi en la estación de Brakerøya – sudadera, auriculares y listo para la siguiente etapa 🎧"
+  },
 
-  { "filename": "fredrikstad2.webp",
-   "caption": "Vagón silencioso y mirada relajada – el tren avanza 🚄" },
+  {
+    "filename": "fredrikstad2.webp",
+    "caption": "Vagón silencioso y mirada relajada – el tren avanza 🚄"
+  },
 
-  { "filename": "fredrikstad3.webp",
-   "caption": "Gafas de sol y ángulo inclinado – nueva ciudad, nuevas impresiones 🕶️" },
+  {
+    "filename": "fredrikstad3.webp",
+    "caption": "Gafas de sol y ángulo inclinado – nueva ciudad, nuevas impresiones 🕶️"
+  },
 
-  { "filename": "fredrikstad4.webp",
-   "caption": "Vista desde lo alto – torre y tejados bajo un cielo gris de verano 🌆" },
+  {
+    "filename": "fredrikstad4.webp",
+    "caption": "Vista desde lo alto – torre y tejados bajo un cielo gris de verano 🌆"
+  },
 
-  { "filename": "fredrikstad5.webp",
-   "caption": "Calles anchas y árboles verdes – Fredrikstad en todo su esplendor 🌳" },
+  {
+    "filename": "fredrikstad5.webp",
+    "caption": "Calles anchas y árboles verdes – Fredrikstad en todo su esplendor 🌳"
+  },
 
-  { "filename": "fredrikstad6.webp",
-   "caption": "Banco de Noruega – cerrado, pero sólido como una roca 🏛️" },
+  {
+    "filename": "fredrikstad6.webp",
+    "caption": "Banco de Noruega – cerrado, pero sólido como una roca 🏛️"
+  },
 
-  { "filename": "fredrikstad7.webp",
-   "caption": "Campanario detrás de copas de árboles – un respiro de paz verde 🍃" },
+  {
+    "filename": "fredrikstad7.webp",
+    "caption": "Campanario detrás de copas de árboles – un respiro de paz verde 🍃"
+  },
 
-  { "filename": "fredrikstad8.webp",
-   "caption": "Fuente e iglesia, cielo y tiempo – todo se detiene por un momento ⛲" },
+  {
+    "filename": "fredrikstad8.webp",
+    "caption": "Fuente e iglesia, cielo y tiempo – todo se detiene por un momento ⛲"
+  },
 
-  { "filename": "fredrikstad9.webp",
-   "caption": "Bajo techo y esperando – un viejo barco listo para una nueva vida ⚓" },
+  {
+    "filename": "fredrikstad9.webp",
+    "caption": "Bajo techo y esperando – un viejo barco listo para una nueva vida ⚓"
+  },
 
-  { "filename": "fredrikstad10.webp",
-   "caption": "Cielo cargado de lluvia sobre el río – calma antes de la tarde en la Ciudad Vieja 🌧️" },
+  {
+    "filename": "fredrikstad10.webp",
+    "caption": "Cielo cargado de lluvia sobre el río – calma antes de la tarde en la Ciudad Vieja 🌧️"
+  },
 
-  { "filename": "fredrikstad11.webp",
-   "caption": "Entrada al pasado – un cartel y un soplo de tiempos de guerra ⛩️" },
+  {
+    "filename": "fredrikstad11.webp",
+    "caption": "Entrada al pasado – un cartel y un soplo de tiempos de guerra ⛩️"
+  },
 
-  { "filename": "fredrikstad12.webp",
-   "caption": "Una vieja rueda hidráulica soñando junto al río – historia en lenta rotación 🌊" },
+  {
+    "filename": "fredrikstad12.webp",
+    "caption": "Una vieja rueda hidráulica soñando junto al río – historia en lenta rotación 🌊"
+  },
 
-  { "filename": "fredrikstad13.webp",
-   "caption": "Parterres cuidados y río tranquilo – un respiro verde en la ciudad 🌿" },
+  {
+    "filename": "fredrikstad13.webp",
+    "caption": "Parterres cuidados y río tranquilo – un respiro verde en la ciudad 🌿"
+  },
 
-  { "filename": "fredrikstad14.webp",
-   "caption": "Piedra a piedra – viejos muros susurran historias de tiempos de fortaleza 🧱" },
+  {
+    "filename": "fredrikstad14.webp",
+    "caption": "Piedra a piedra – viejos muros susurran historias de tiempos de fortaleza 🧱"
+  },
 
-  { "filename": "fredrikstad15.webp",
-   "caption": "Viento fresco y amplias vistas – con la cabeza alta sobre el río 🍃" },
+  {
+    "filename": "fredrikstad15.webp",
+    "caption": "Viento fresco y amplias vistas – con la cabeza alta sobre el río 🍃"
+  },
 
-  { "filename": "fredrikstad16.webp",
-   "caption": "Ladrillos y arcos – restos de algo que alguna vez fue 🔨" },
+  {
+    "filename": "fredrikstad16.webp",
+    "caption": "Ladrillos y arcos – restos de algo que alguna vez fue 🔨"
+  },
 
-  { "filename": "fredrikstad17.webp",
-   "caption": "Pequeña sonrisa en lo verde – paseo con los hombros relajados 🌳" },
+  {
+    "filename": "fredrikstad17.webp",
+    "caption": "Pequeña sonrisa en lo verde – paseo con los hombros relajados 🌳"
+  },
 
-  { "filename": "fredrikstad18.webp",
-   "caption": "Mástil de barco en el bosque – líneas del pasado bajo los árboles 🚢" },
+  {
+    "filename": "fredrikstad18.webp",
+    "caption": "Mástil de barco en el bosque – líneas del pasado bajo los árboles 🚢"
+  },
 
-  { "filename": "fredrikstad19.webp",
-   "caption": "Piedra, cañón y costa – la fortaleza aún vigila el río 💣" },
+  {
+    "filename": "fredrikstad19.webp",
+    "caption": "Piedra, cañón y costa – la fortaleza aún vigila el río 💣"
+  },
 
-  { "filename": "fredrikstad20.webp",
-   "caption": "Horizonte amplio y corriente suave – el río te arrastra lentamente 🌊" },
+  {
+    "filename": "fredrikstad20.webp",
+    "caption": "Horizonte amplio y corriente suave – el río te arrastra lentamente 🌊"
+  },
 
-  { "filename": "fredrikstad21.webp",
-   "caption": "Tejado rojo y suelo tranquilo – el tiempo se detiene dentro de estos muros 🏡" },
+  {
+    "filename": "fredrikstad21.webp",
+    "caption": "Tejado rojo y suelo tranquilo – el tiempo se detiene dentro de estos muros 🏡"
+  },
 
-  { "filename": "fredrikstad22.webp",
-   "caption": "Muros y verde – la tarde se apoya en viejos cimientos 🍺" },
+  {
+    "filename": "fredrikstad22.webp",
+    "caption": "Muros y verde – la tarde se apoya en viejos cimientos 🍺"
+  },
 
-  { "filename": "fredrikstad23.webp",
-   "caption": "Código y algo frío en el vaso – viernes por la noche con flow y enfoque 🍺💻" },
+  {
+    "filename": "fredrikstad23.webp",
+    "caption": "Código y algo frío en el vaso – viernes por la noche con flow y enfoque 🍺💻"
+  },
 
-  { "filename": "fredrikstad24.webp",
-   "caption": "Velas y silencio entre árboles – aire marino antiguo en nueva forma ⛵" },
+  {
+    "filename": "fredrikstad24.webp",
+    "caption": "Velas y silencio entre árboles – aire marino antiguo en nueva forma ⛵"
+  },
 
-  { "filename": "fredrikstad25.webp",
-   "caption": "Pequeña casa en el río – como si alguien hubiera aparcado su alma allí 🛶" },
+  {
+    "filename": "fredrikstad25.webp",
+    "caption": "Pequeña casa en el río – como si alguien hubiera aparcado su alma allí 🛶"
+  },
 
-  { "filename": "fredrikstad26.webp",
-   "caption": "URDA y viejas líneas – un vistazo al puerto y al trabajo duro 🔍" },
+  {
+    "filename": "fredrikstad26.webp",
+    "caption": "URDA y viejas líneas – un vistazo al puerto y al trabajo duro 🔍"
+  },
 
-  { "filename": "fredrikstad27.webp",
-   "caption": "Escaleras en silencio – el monumento espera el sol de la mañana ☁️" },
+  {
+    "filename": "fredrikstad27.webp",
+    "caption": "Escaleras en silencio – el monumento espera el sol de la mañana ☁️"
+  },
 
-  { "filename": "fredrikstad28.webp",
-   "caption": "Valla blanca, verde alrededor – un camino para la calma, sin prisa ni meta 🌼" },
+  {
+    "filename": "fredrikstad28.webp",
+    "caption": "Valla blanca, verde alrededor – un camino para la calma, sin prisa ni meta 🌼"
+  },
 
-  { "filename": "fredrikstad29.webp",
-   "caption": "Último vistazo de verde antes de partir – una pequeña despedida 🌲" },
+  {
+    "filename": "fredrikstad29.webp",
+    "caption": "Último vistazo de verde antes de partir – una pequeña despedida 🌲"
+  },
 
-  { "filename": "fredrikstad30.webp",
-   "caption": "Torre sobre la ciudad – un guardián de piedra y acero 💂‍♂️" },
+  {
+    "filename": "fredrikstad30.webp",
+    "caption": "Torre sobre la ciudad – un guardián de piedra y acero 💂‍♂️"
+  },
 
-  { "filename": "fredrikstad31.webp",
-   "caption": "Arcos de piedra y frases inconclusas – la historia susurra desde el muro 🧱" },
+  {
+    "filename": "fredrikstad31.webp",
+    "caption": "Arcos de piedra y frases inconclusas – la historia susurra desde el muro 🧱"
+  },
 
-  { "filename": "fredrikstad32.webp",
-   "caption": "La ciudad se baña al atardecer – grúas, luces y promesas de algo nuevo 🌆" },
-   
-  { "filename": "fredrikstad33.webp",
-   "caption": "Olas junto a la borda – Fredrikstad pasa lentamente 🚤" }
+  {
+    "filename": "fredrikstad32.webp",
+    "caption": "La ciudad se baña al atardecer – grúas, luces y promesas de algo nuevo 🌆"
+  },
+
+  {
+    "filename": "fredrikstad33.webp",
+    "caption": "Olas junto a la borda – Fredrikstad pasa lentamente 🚤"
+  }
 ]
