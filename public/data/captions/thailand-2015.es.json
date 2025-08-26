@@ -1,70 +1,116 @@
 [
-  { "filename": "thailand1.webp",
-   "caption": "Tres amigos, una almohada – listos para un viaje largo ✈️" },
+  {
+    "filename": "thailand1.webp",
+    "caption": "Tres amigos, una almohada – listos para un viaje largo ✈️"
+  },
 
-  { "filename": "thailand2.webp",
-   "caption": "Primera vista de Tailandia – ríos como anillos de árbol desde el cielo 🌏" },
+  {
+    "filename": "thailand2.webp",
+    "caption": "Primera vista de Tailandia – ríos como anillos de árbol desde el cielo 🌏"
+  },
 
-  { "filename": "thailand3.webp",
-   "caption": "Caras cansadas y risas camino al calor 😅" },
+  {
+    "filename": "thailand3.webp",
+    "caption": "Caras cansadas y risas camino al calor 😅"
+  },
 
-  { "filename": "thailand4.webp",
-   "caption": "Máximo desfase horario – dormir en cualquier lugar 😴" },
+  {
+    "filename": "thailand4.webp",
+    "caption": "Máximo desfase horario – dormir en cualquier lugar 😴"
+  },
 
-  { "filename": "thailand5.webp",
-   "caption": "Primer cubo de las vacaciones – modo vacaciones activado 🍹" },
+  {
+    "filename": "thailand5.webp",
+    "caption": "Primer cubo de las vacaciones – modo vacaciones activado 🍹"
+  },
 
-  { "filename": "thailand6.webp",
-   "caption": "Bungalows sobre el agua – sacados de una postal 🏝️" },
+  {
+    "filename": "thailand6.webp",
+    "caption": "Bungalows sobre el agua – sacados de una postal 🏝️"
+  },
 
-  { "filename": "thailand7.webp",
-   "caption": "Barco de cola larga hacia la aventura – las tablas crujen, pero el ánimo está alto 🚤" },
+  {
+    "filename": "thailand7.webp",
+    "caption": "Barco de cola larga hacia la aventura – las tablas crujen, pero el ánimo está alto 🚤"
+  },
 
-  { "filename": "thailand8.webp",
-   "caption": "Ringside en Tailandia – listos para sudor, patadas y puñetazos 🥊" },
+  {
+    "filename": "thailand8.webp",
+    "caption": "Ringside en Tailandia – listos para sudor, patadas y puñetazos 🥊"
+  },
 
-  { "filename": "thailand9.webp",
-   "caption": "El propio jardinero del hotel – varano en patrulla 🦎" },
+  {
+    "filename": "thailand9.webp",
+    "caption": "El propio jardinero del hotel – varano en patrulla 🦎"
+  },
 
-  { "filename": "thailand10.webp",
-   "caption": "Montañas al fondo del hotel – telón de fondo natural 🏞️" },
+  {
+    "filename": "thailand10.webp",
+    "caption": "Montañas al fondo del hotel – telón de fondo natural 🏞️"
+  },
 
-  { "filename": "thailand11.webp",
-   "caption": "Atardecer sobre la carretera – el cielo tocando todas sus cuerdas 🌅" },
+  {
+    "filename": "thailand11.webp",
+    "caption": "Atardecer sobre la carretera – el cielo tocando todas sus cuerdas 🌅"
+  },
 
-  { "filename": "thailand12.webp",
-   "caption": "Varano tomando el sol – inofensivo, solo un vecino 🦎" },
+  {
+    "filename": "thailand12.webp",
+    "caption": "Varano tomando el sol – inofensivo, solo un vecino 🦎"
+  },
 
-  { "filename": "thailand13.webp",
-   "caption": "Cascada en miniatura – la fuente zen de la naturaleza 💧" },
+  {
+    "filename": "thailand13.webp",
+    "caption": "Cascada en miniatura – la fuente zen de la naturaleza 💧"
+  },
 
-  { "filename": "thailand14.webp",
-   "caption": "Verde hasta donde alcanza la vista – alfombra de selva tropical 🌳" },
+  {
+    "filename": "thailand14.webp",
+    "caption": "Verde hasta donde alcanza la vista – alfombra de selva tropical 🌳"
+  },
 
-  { "filename": "thailand15.webp",
-   "caption": "Acantilados de piedra caliza contra el cielo – Krabi en su máxima expresión ⛰️" },
+  {
+    "filename": "thailand15.webp",
+    "caption": "Acantilados de piedra caliza contra el cielo – Krabi en su máxima expresión ⛰️"
+  },
 
-  { "filename": "thailand16.webp",
-   "caption": "Vista hacia la playa – paraíso desde lo alto 🌊" },
+  {
+    "filename": "thailand16.webp",
+    "caption": "Vista hacia la playa – paraíso desde lo alto 🌊"
+  },
 
-  { "filename": "thailand17.webp",
-   "caption": "Parque colorido en los trópicos – como un parque infantil para adultos 🌺" },
+  {
+    "filename": "thailand17.webp",
+    "caption": "Parque colorido en los trópicos – como un parque infantil para adultos 🌺"
+  },
 
-  { "filename": "thailand18.webp",
-   "caption": "Escaleras encaladas hacia la tierra de Buda 🪷" },
+  {
+    "filename": "thailand18.webp",
+    "caption": "Escaleras encaladas hacia la tierra de Buda 🪷"
+  },
 
-  { "filename": "thailand19.webp",
-   "caption": "Ciudad del Cielo – encontramos la entrada 😇" },
+  {
+    "filename": "thailand19.webp",
+    "caption": "Ciudad del Cielo – encontramos la entrada 😇"
+  },
 
-  { "filename": "thailand20.webp",
-   "caption": "Sandalias, camiseta sin mangas y molinos – el uniforme del turista 🌬️" },
+  {
+    "filename": "thailand20.webp",
+    "caption": "Sandalias, camiseta sin mangas y molinos – el uniforme del turista 🌬️"
+  },
 
-  { "filename": "thailand21.webp",
-   "caption": "Primera comida juntos – estómagos listos para todo, de suave a picante 🍜" },
+  {
+    "filename": "thailand21.webp",
+    "caption": "Primera comida juntos – estómagos listos para todo, de suave a picante 🍜"
+  },
 
-  { "filename": "thailand22.webp",
-   "caption": "Posando en la cima – la sensación de estar en la cima del mundo 🗺️" },
-   
-  { "filename": "thailand23.webp",
-   "caption": "Tres estilos, una mesa – listos para la siguiente ronda 🍹" }
+  {
+    "filename": "thailand22.webp",
+    "caption": "Posando en la cima – la sensación de estar en la cima del mundo 🗺️"
+  },
+
+  {
+    "filename": "thailand23.webp",
+    "caption": "Tres estilos, una mesa – listos para la siguiente ronda 🍹"
+  }
 ]
