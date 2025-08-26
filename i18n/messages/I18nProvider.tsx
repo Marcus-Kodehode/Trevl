@@ -4,21 +4,26 @@ import React, { createContext, useMemo, useState } from "react";
 import no from "./no.json";
 import en from "./en.json";
 import es from "./es.json";
+import zhHant from "./zh-Hant.json"; // ⬅️ NY
 
-type Lang = "no" | "en" | "es";
+type Lang = "no" | "en" | "es" | "zh-Hant";
 type Dict = Record<string, unknown>;
 
-// Simple dot-path getter: "home.title" → dict.home.title
+// Simple dot-path getter
 function get(obj: Dict, path: string): unknown {
   return path.split(".").reduce<unknown>((acc, key) => {
-    if (acc && typeof acc === "object" && key in (acc as Record<string, unknown>)) {
+    if (
+      acc &&
+      typeof acc === "object" &&
+      key in (acc as Record<string, unknown>)
+    ) {
       return (acc as Record<string, unknown>)[key];
     }
     return undefined;
   }, obj);
 }
 
-const DICTS: Record<Lang, Dict> = { no, en, es };
+const DICTS: Record<Lang, Dict> = { no, en, es, "zh-Hant": zhHant };
 
 type Ctx = {
   lang: Lang;
@@ -39,8 +44,18 @@ export function I18nProvider({
 
   // Persist choice locally
   React.useEffect(() => {
-    const stored = typeof window !== "undefined" ? (localStorage.getItem("lang") as Lang | null) : null;
-    if (stored === "no" || stored === "en") setLangState(stored);
+    const stored =
+      typeof window !== "undefined"
+        ? (localStorage.getItem("lang") as Lang | null)
+        : null;
+    if (
+      stored === "no" ||
+      stored === "en" ||
+      stored === "es" ||
+      stored === "zh-Hant"
+    ) {
+      setLangState(stored);
+    }
   }, []);
 
   React.useEffect(() => {
@@ -48,7 +63,6 @@ export function I18nProvider({
   }, [lang]);
 
   const dict = DICTS[lang];
-
   const setLang = (l: Lang) => setLangState(l);
 
   const t = React.useCallback(
@@ -56,7 +70,9 @@ export function I18nProvider({
       const raw = get(dict, key);
       if (typeof raw !== "string") return key; // fallback
       if (!vars) return raw;
-      return raw.replace(/\{\{(\w+)\}\}/g, (_, k) => String(vars[k] ?? `{{${k}}}`));
+      return raw.replace(/\{\{(\w+)\}\}/g, (_, k) =>
+        String(vars[k] ?? `{{${k}}}`)
+      );
     },
     [dict]
   );
