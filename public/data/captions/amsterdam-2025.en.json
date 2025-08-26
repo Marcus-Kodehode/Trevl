@@ -1,97 +1,161 @@
 [
-  { "filename": "amsterdam1.webp",
-   "caption": "Packed and excited – ready to depart from Gardermoen ✈️" },
+  {
+    "filename": "amsterdam1.webp",
+    "caption": "Packed and excited – ready to depart from Gardermoen ✈️"
+  },
 
-  { "filename": "amsterdam2.webp",
-   "caption": "A hopeful gaze and headphones on – the journey has begun 🎧" },
+  {
+    "filename": "amsterdam2.webp",
+    "caption": "A hopeful gaze and headphones on – the journey has begun 🎧"
+  },
 
-  { "filename": "amsterdam3.webp",
-   "caption": "Green leaves and sparkling water – the city wakes by the canal 🌿" },
+  {
+    "filename": "amsterdam3.webp",
+    "caption": "Green leaves and sparkling water – the city wakes by the canal 🌿"
+  },
 
-  { "filename": "amsterdam4.webp",
-   "caption": "Red bricks and waving flags – life between the buildings 🎏" },
+  {
+    "filename": "amsterdam4.webp",
+    "caption": "Red bricks and waving flags – life between the buildings 🎏"
+  },
 
-  { "filename": "amsterdam5.webp",
-   "caption": "Morning view of the harbor and boats – a new day ahead 🌅" },
+  {
+    "filename": "amsterdam5.webp",
+    "caption": "Morning view of the harbor and boats – a new day ahead 🌅"
+  },
 
-  { "filename": "amsterdam6.webp",
-   "caption": "Bikes, bridges, and water – Amsterdam as it should be 🚲" },
+  {
+    "filename": "amsterdam6.webp",
+    "caption": "Bikes, bridges, and water – Amsterdam as it should be 🚲"
+  },
 
-  { "filename": "amsterdam7.webp",
-   "caption": "A pause by the water with drifting thoughts and smoke in hand 🌬️" },
+  {
+    "filename": "amsterdam7.webp",
+    "caption": "A pause by the water with drifting thoughts and smoke in hand 🌬️"
+  },
 
-  { "filename": "amsterdam8.webp",
-   "caption": "Sun on the face, wind in the hair, and a body full of freedom ☀️" },
+  {
+    "filename": "amsterdam8.webp",
+    "caption": "Sun on the face, wind in the hair, and a body full of freedom ☀️"
+  },
 
-  { "filename": "amsterdam9.webp",
-   "caption": "A street cat rests in the shade – the city makes room for all 🐾" },
+  {
+    "filename": "amsterdam9.webp",
+    "caption": "A street cat rests in the shade – the city makes room for all 🐾"
+  },
 
-  { "filename": "amsterdam10.webp",
-   "caption": "Cat wandering between stone and history 🐈" },
+  {
+    "filename": "amsterdam10.webp",
+    "caption": "Cat wandering between stone and history 🐈"
+  },
 
-  { "filename": "amsterdam11.webp",
-   "caption": "Breakfast plate with eggs and juice – a calm start to the adventure 🍊" },
+  {
+    "filename": "amsterdam11.webp",
+    "caption": "Breakfast plate with eggs and juice – a calm start to the adventure 🍊"
+  },
 
-  { "filename": "amsterdam12.webp",
-   "caption": "Boats bobbing quietly, surrounded by color and peace 🚤" },
+  {
+    "filename": "amsterdam12.webp",
+    "caption": "Boats bobbing quietly, surrounded by color and peace 🚤"
+  },
 
-  { "filename": "amsterdam13.webp",
-   "caption": "Cigarette and silence – a small bridge and a big moment 🚬" },
+  {
+    "filename": "amsterdam13.webp",
+    "caption": "Cigarette and silence – a small bridge and a big moment 🚬"
+  },
 
-  { "filename": "amsterdam14.webp",
-   "caption": "A narrow street with fruit, flags, and a quiet morning 🍇" },
+  {
+    "filename": "amsterdam14.webp",
+    "caption": "A narrow street with fruit, flags, and a quiet morning 🍇"
+  },
 
-  { "filename": "amsterdam15.webp",
-   "caption": "Amsterdam Centraal – a castle of stone and symmetry 🏰" },
+  {
+    "filename": "amsterdam15.webp",
+    "caption": "Amsterdam Centraal – a castle of stone and symmetry 🏰"
+  },
 
-  { "filename": "amsterdam16.webp",
-   "caption": "Reflections in the canal’s green calm 💧" },
+  {
+    "filename": "amsterdam16.webp",
+    "caption": "Reflections in the canal’s green calm 💧"
+  },
 
-  { "filename": "amsterdam17.webp",
-   "caption": "Tight glass meets the soft mirror of water – Amsterdam in a new light 🏙️" },
+  {
+    "filename": "amsterdam17.webp",
+    "caption": "Tight glass meets the soft mirror of water – Amsterdam in a new light 🏙️"
+  },
 
-  { "filename": "amsterdam18.webp",
-   "caption": "Selfie with a raised brow and lowered shoulders – vacation mode on 😌" },
+  {
+    "filename": "amsterdam18.webp",
+    "caption": "Selfie with a raised brow and lowered shoulders – vacation mode on 😌"
+  },
 
-  { "filename": "amsterdam19.webp",
-   "caption": "Yellow tabletop, beer in the glass, and screen in focus – city life on pause 🍻" },
+  {
+    "filename": "amsterdam19.webp",
+    "caption": "Yellow tabletop, beer in the glass, and screen in focus – city life on pause 🍻"
+  },
 
-  { "filename": "amsterdam20.webp",
-   "caption": "Evening light over the grand Tuschinski Theater – art deco alive 🎭" },
+  {
+    "filename": "amsterdam20.webp",
+    "caption": "Evening light over the grand Tuschinski Theater – art deco alive 🎭"
+  },
 
-  { "filename": "amsterdam21.webp",
-   "caption": "Lights, smoke, and rhythm – the night pulses in blue and pink 🎶" },
+  {
+    "filename": "amsterdam21.webp",
+    "caption": "Lights, smoke, and rhythm – the night pulses in blue and pink 🎶"
+  },
 
-  { "filename": "amsterdam22.webp",
-   "caption": "Classic canal view with a tower in the distance and calm waters 🌤️" },
+  {
+    "filename": "amsterdam22.webp",
+    "caption": "Classic canal view with a tower in the distance and calm waters 🌤️"
+  },
 
-  { "filename": "amsterdam23.webp",
-   "caption": "Red bridge on the horizon, green trees in view – the city mirrors itself 🌉" },
+  {
+    "filename": "amsterdam23.webp",
+    "caption": "Red bridge on the horizon, green trees in view – the city mirrors itself 🌉"
+  },
 
-  { "filename": "amsterdam24.webp",
-   "caption": "A quiet moment by the canal – conversation, breeze, and old bridges 🌬️" },
+  {
+    "filename": "amsterdam24.webp",
+    "caption": "A quiet moment by the canal – conversation, breeze, and old bridges 🌬️"
+  },
 
-  { "filename": "amsterdam25.webp",
-   "caption": "Anne Frank’s House – dark door, deep scars, and a queue in respect 🕯️" },
+  {
+    "filename": "amsterdam25.webp",
+    "caption": "Anne Frank’s House – dark door, deep scars, and a queue in respect 🕯️"
+  },
 
-  { "filename": "amsterdam26.webp",
-   "caption": "Royal facade under renovation – Dam Square in a new chapter 👷‍♂️" },
+  {
+    "filename": "amsterdam26.webp",
+    "caption": "Royal facade under renovation – Dam Square in a new chapter 👷‍♂️"
+  },
 
-  { "filename": "amsterdam27.webp",
-   "caption": "Sun shining, shorts on – ready in front of the palace ☀️" },
+  {
+    "filename": "amsterdam27.webp",
+    "caption": "Sun shining, shorts on – ready in front of the palace ☀️"
+  },
 
-  { "filename": "amsterdam28.webp",
-   "caption": "Behind the window at 'The Jolly Joker', smoke and laughter rise 🎭" },
+  {
+    "filename": "amsterdam28.webp",
+    "caption": "Behind the window at 'The Jolly Joker', smoke and laughter rise 🎭"
+  },
 
-  { "filename": "amsterdam29.webp",
-   "caption": "A moment caught in brochure form – old towers and new menus 🏰" },
+  {
+    "filename": "amsterdam29.webp",
+    "caption": "A moment caught in brochure form – old towers and new menus 🏰"
+  },
 
-  { "filename": "amsterdam30.webp",
+  {
+    "filename": "amsterdam30.webp",
 
-   "caption": "Sunset over downtown – facades bathed in warm gold 🌇" },
-  { "filename": "amsterdam31.webp",
-   "caption": "Wings over the Netherlands – farewell from the sky ✈️" },
-   
-  { "filename": "amsterdam32.webp",
-   "caption": "Back in the car seat with memories in the bag and wind in the gaze 🎧" }
+    "caption": "Sunset over downtown – facades bathed in warm gold 🌇"
+  },
+  {
+    "filename": "amsterdam31.webp",
+    "caption": "Wings over the Netherlands – farewell from the sky ✈️"
+  },
+
+  {
+    "filename": "amsterdam32.webp",
+    "caption": "Back in the car seat with memories in the bag and wind in the gaze 🎧"
+  }
 ]

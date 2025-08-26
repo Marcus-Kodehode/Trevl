@@ -1,97 +1,161 @@
 [
-  { "filename": "amsterdam1.webp",
-   "caption": "Empacado y emocionado – listo para partir desde Gardermoen ✈️" },
+  {
+    "filename": "amsterdam1.webp",
+    "caption": "Empacado y emocionado – listo para partir desde Gardermoen ✈️"
+  },
 
-  { "filename": "amsterdam2.webp",
-   "caption": "Mirada esperanzada y auriculares puestos – el viaje ha comenzado 🎧" },
+  {
+    "filename": "amsterdam2.webp",
+    "caption": "Mirada esperanzada y auriculares puestos – el viaje ha comenzado 🎧"
+  },
 
-  { "filename": "amsterdam3.webp",
-   "caption": "Hojas verdes y agua brillante – la ciudad despierta junto al canal 🌿" },
+  {
+    "filename": "amsterdam3.webp",
+    "caption": "Hojas verdes y agua brillante – la ciudad despierta junto al canal 🌿"
+  },
 
-  { "filename": "amsterdam4.webp",
-   "caption": "Ladrillos rojos y banderas ondeando – vida entre edificios 🎏" },
+  {
+    "filename": "amsterdam4.webp",
+    "caption": "Ladrillos rojos y banderas ondeando – vida entre edificios 🎏"
+  },
 
-  { "filename": "amsterdam5.webp",
-   "caption": "Vista matutina del puerto y los barcos – un nuevo día por delante 🌅" },
+  {
+    "filename": "amsterdam5.webp",
+    "caption": "Vista matutina del puerto y los barcos – un nuevo día por delante 🌅"
+  },
 
-  { "filename": "amsterdam6.webp",
-   "caption": "Bicicletas, puentes y agua – Ámsterdam como debe ser 🚲" },
+  {
+    "filename": "amsterdam6.webp",
+    "caption": "Bicicletas, puentes y agua – Ámsterdam como debe ser 🚲"
+  },
 
-  { "filename": "amsterdam7.webp",
-   "caption": "Pausa junto al agua con pensamientos que fluyen y cigarro en mano 🌬️" },
+  {
+    "filename": "amsterdam7.webp",
+    "caption": "Pausa junto al agua con pensamientos que fluyen y cigarro en mano 🌬️"
+  },
 
-  { "filename": "amsterdam8.webp",
-   "caption": "Sol en la cara, viento en el cabello y el cuerpo lleno de libertad ☀️" },
+  {
+    "filename": "amsterdam8.webp",
+    "caption": "Sol en la cara, viento en el cabello y el cuerpo lleno de libertad ☀️"
+  },
 
-  { "filename": "amsterdam9.webp",
-   "caption": "Un gato callejero descansa en la sombra – la ciudad hace espacio para todos 🐾" },
+  {
+    "filename": "amsterdam9.webp",
+    "caption": "Un gato callejero descansa en la sombra – la ciudad hace espacio para todos 🐾"
+  },
 
-  { "filename": "amsterdam10.webp",
-   "caption": "Gato paseando entre piedra e historia 🐈" },
+  {
+    "filename": "amsterdam10.webp",
+    "caption": "Gato paseando entre piedra e historia 🐈"
+  },
 
-  { "filename": "amsterdam11.webp",
-   "caption": "Plato de desayuno con huevos y jugo – un comienzo tranquilo para la aventura 🍊" },
+  {
+    "filename": "amsterdam11.webp",
+    "caption": "Plato de desayuno con huevos y jugo – un comienzo tranquilo para la aventura 🍊"
+  },
 
-  { "filename": "amsterdam12.webp",
-   "caption": "Barcos balanceándose en silencio, rodeados de color y paz 🚤" },
+  {
+    "filename": "amsterdam12.webp",
+    "caption": "Barcos balanceándose en silencio, rodeados de color y paz 🚤"
+  },
 
-  { "filename": "amsterdam13.webp",
-   "caption": "Cigarro y silencio – un pequeño puente y un gran momento 🚬" },
+  {
+    "filename": "amsterdam13.webp",
+    "caption": "Cigarro y silencio – un pequeño puente y un gran momento 🚬"
+  },
 
-  { "filename": "amsterdam14.webp",
-   "caption": "Calle estrecha con frutas, banderas y una mañana tranquila 🍇" },
+  {
+    "filename": "amsterdam14.webp",
+    "caption": "Calle estrecha con frutas, banderas y una mañana tranquila 🍇"
+  },
 
-  { "filename": "amsterdam15.webp",
-   "caption": "Ámsterdam Centraal – un castillo de piedra y simetría 🏰" },
+  {
+    "filename": "amsterdam15.webp",
+    "caption": "Ámsterdam Centraal – un castillo de piedra y simetría 🏰"
+  },
 
-  { "filename": "amsterdam16.webp",
-   "caption": "Reflejos en la calma verde del canal 💧" },
+  {
+    "filename": "amsterdam16.webp",
+    "caption": "Reflejos en la calma verde del canal 💧"
+  },
 
-  { "filename": "amsterdam17.webp",
-   "caption": "Cristal ajustado frente al suave espejo del agua – Ámsterdam bajo otra luz 🏙️" },
+  {
+    "filename": "amsterdam17.webp",
+    "caption": "Cristal ajustado frente al suave espejo del agua – Ámsterdam bajo otra luz 🏙️"
+  },
 
-  { "filename": "amsterdam18.webp",
-   "caption": "Selfie con ceja levantada y hombros relajados – modo vacaciones activado 😌" },
+  {
+    "filename": "amsterdam18.webp",
+    "caption": "Selfie con ceja levantada y hombros relajados – modo vacaciones activado 😌"
+  },
 
-  { "filename": "amsterdam19.webp",
-   "caption": "Mesa amarilla, cerveza en el vaso y pantalla en foco – la vida urbana en pausa 🍻" },
+  {
+    "filename": "amsterdam19.webp",
+    "caption": "Mesa amarilla, cerveza en el vaso y pantalla en foco – la vida urbana en pausa 🍻"
+  },
 
-  { "filename": "amsterdam20.webp",
-   "caption": "Luz vespertina sobre el gran Teatro Tuschinski – art déco vivo 🎭" },
+  {
+    "filename": "amsterdam20.webp",
+    "caption": "Luz vespertina sobre el gran Teatro Tuschinski – art déco vivo 🎭"
+  },
 
-  { "filename": "amsterdam21.webp",
-   "caption": "Luces, humo y ritmo – la noche palpita en azul y rosa 🎶" },
+  {
+    "filename": "amsterdam21.webp",
+    "caption": "Luces, humo y ritmo – la noche palpita en azul y rosa 🎶"
+  },
 
-  { "filename": "amsterdam22.webp",
-   "caption": "Vista clásica del canal con una torre a lo lejos y aguas tranquilas 🌤️" },
+  {
+    "filename": "amsterdam22.webp",
+    "caption": "Vista clásica del canal con una torre a lo lejos y aguas tranquilas 🌤️"
+  },
 
-  { "filename": "amsterdam23.webp",
-   "caption": "Puente rojo en el horizonte, árboles verdes a la vista – la ciudad se refleja 🌉" },
+  {
+    "filename": "amsterdam23.webp",
+    "caption": "Puente rojo en el horizonte, árboles verdes a la vista – la ciudad se refleja 🌉"
+  },
 
-  { "filename": "amsterdam24.webp",
-   "caption": "Momento tranquilo junto al canal – conversación, brisa y viejos puentes 🌬️" },
+  {
+    "filename": "amsterdam24.webp",
+    "caption": "Momento tranquilo junto al canal – conversación, brisa y viejos puentes 🌬️"
+  },
 
-  { "filename": "amsterdam25.webp",
-   "caption": "Casa de Ana Frank – puerta oscura, cicatrices profundas y una fila de respeto 🕯️" },
+  {
+    "filename": "amsterdam25.webp",
+    "caption": "Casa de Ana Frank – puerta oscura, cicatrices profundas y una fila de respeto 🕯️"
+  },
 
-  { "filename": "amsterdam26.webp",
-   "caption": "Fachada real en renovación – Plaza Dam en un nuevo capítulo 👷‍♂️" },
+  {
+    "filename": "amsterdam26.webp",
+    "caption": "Fachada real en renovación – Plaza Dam en un nuevo capítulo 👷‍♂️"
+  },
 
-  { "filename": "amsterdam27.webp",
-   "caption": "Sol brillante, pantalones cortos – listo frente al palacio ☀️" },
+  {
+    "filename": "amsterdam27.webp",
+    "caption": "Sol brillante, pantalones cortos – listo frente al palacio ☀️"
+  },
 
-  { "filename": "amsterdam28.webp",
-   "caption": "Tras la ventana de 'The Jolly Joker', humo y risas se elevan 🎭" },
+  {
+    "filename": "amsterdam28.webp",
+    "caption": "Tras la ventana de 'The Jolly Joker', humo y risas se elevan 🎭"
+  },
 
-  { "filename": "amsterdam29.webp",
-   "caption": "Un momento capturado en forma de folleto – viejas torres y nuevos menús 🏰" },
+  {
+    "filename": "amsterdam29.webp",
+    "caption": "Un momento capturado en forma de folleto – viejas torres y nuevos menús 🏰"
+  },
 
-  { "filename": "amsterdam30.webp",
-   "caption": "Atardecer en el centro – fachadas bañadas en oro cálido 🌇" },
+  {
+    "filename": "amsterdam30.webp",
+    "caption": "Atardecer en el centro – fachadas bañadas en oro cálido 🌇"
+  },
 
-  { "filename": "amsterdam31.webp",
-   "caption": "Alas sobre los Países Bajos – despedida desde el cielo ✈️" },
-   
-  { "filename": "amsterdam32.webp",
-   "caption": "De vuelta en el asiento del coche con recuerdos en la mochila y viento en la mirada 🎧" }
+  {
+    "filename": "amsterdam31.webp",
+    "caption": "Alas sobre los Países Bajos – despedida desde el cielo ✈️"
+  },
+
+  {
+    "filename": "amsterdam32.webp",
+    "caption": "De vuelta en el asiento del coche con recuerdos en la mochila y viento en la mirada 🎧"
+  }
 ]
