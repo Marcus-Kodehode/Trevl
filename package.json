@@ -2,6 +2,13 @@
   "name": "trevl",
   "version": "0.1.0",
   "private": true,
+  "description": "Din digitale reisefotodagbok bygget med Next.js og Tailwind CSS",
+  "author": "Marcus-Kodehode",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marcus-Kodehode/trevl.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

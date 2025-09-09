@@ -1,6 +1,43 @@
 <div align="center">
   <p>
-    <img src="/public/images/logo.png" alt="Trevl Logo" width="150" />
+    <img src="/public/images/logo.png" alt="Trevl Log## 📸 Destinasjoner
+
+- 🇳🇱 Amsterdam
+- 🇳🇴 Fredrikstad
+- 🇳🇴 Oslo
+- 🇹🇭 Thailand
+
+## 📦 Bygg for Produksjon
+
+```bash
+npm run build
+npm start
+```
+
+Bygget vil være klart for deployment til din foretrukne hostingtjeneste.
+
+## 🔍 Scripts
+
+```bash
+npm run dev      # Start utviklingsserver
+npm run build   # Bygg for produksjon
+npm start      # Start produksjonsserver
+npm run lint   # Kjør linting
+```
+
+## 📄 Lisens
+
+Dette prosjektet er lisensiert under MIT-lisensen - se [LICENSE](LICENSE) filen for detaljer.
+
+---
+
+<div align="center">
+  <i>"Ikke alle som vandrer er borte"</i>
+  <br>
+  <sub>Laget med ❤️ av Marcus</sub>
+  <br>
+  <sub>© 2025 Marcus-Kodehode. MIT License.</sub>
+</div> />
   </p>
   <p>
     <img src="/public/images/logo-sunset.png" alt="Trevl Sunset Logo" width="150" />
