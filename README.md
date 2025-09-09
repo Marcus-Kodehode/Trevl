@@ -1,115 +1,94 @@
-<p align="center">
-  <img src="public/images/logo.png" alt="Trevl Logo" width="200"/>
-</p>
+<div align="center">
+  <p>
+    <img src="/public/images/logo.png" alt="Trevl Logo" width="150" />
+  </p>
+  <p>
+    <img src="/public/images/logo-sunset.png" alt="Trevl Sunset Logo" width="150" />
+  </p>
+  
+  # Trevl
+  
+  > Din digitale reisefotodagbok bygget med Next.js og Tailwind CSS
+  
+  [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg)](https://tailwindcss.com)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6.svg)](https://www.typescriptlang.org)
+  [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000.svg)](https://vercel.com)
+</div>
 
-<p align="center">
-  <img src="public/images/logo-sunset.png" alt="Trevl Sunset Logo" width="200"/>
-</p>
+## ✨ Hovedfunksjoner
 
-# 🌴 Trevl – Din digitale reisefotodagbok
+- 🌍 Flerspråklig støtte (Norsk, Engelsk, Spansk, Kinesisk)
+- 🖼️ Elegante fotoalbum per destinasjon
+- 📱 Responsivt design for alle enheter
+- ⚡ Lynrask navigasjon med Next.js
+- 🎨 Moderne og minimalistisk design
+- 📝 Detaljerte bildetekster på flere språk
 
-Velkommen til **Trevl** – en moderne, flerspråklig fotoalbum-nettside laget med **Next.js**, **TypeScript** og **Tailwind CSS**.  
-Her kan du samle, organisere og dele bilder og minner fra dine reiser på en enkel, stilig og responsiv måte.
+## 🖼️ Skjermbilde
 
----
+<div align="center">
+  <img src="/public/images/trevl-screenshot.png" alt="Trevl Screenshot" width="800" />
+</div>
 
-## 🧭 Hva er dette prosjektet?
+## 🚀 Kom i Gang
 
-Trevl er laget for å være din personlige digitale reisefortelling.  
-Den støtter flere språk, viser album for hvert reisemål og gir en estetisk, brukervennlig opplevelse.
-
----
-
-## 🚀 Kom i gang
-
-### 1. Klon prosjektet
-
+1. **Klone prosjektet**
 ```bash
-git clone https://github.com/dittbrukernavn/trevl.git
+git clone https://github.com/Marcus-Kodehode/trevl.git
 cd trevl
 ```
 
-### 2. Installer avhengigheter
-
+2. **Installer avhengigheter**
 ```bash
 npm install
 ```
 
-### 3. Start utviklingsserveren
-
+3. **Start utviklingsserver**
 ```bash
 npm run dev
 ```
 
-Åpne [http://localhost:3000](http://localhost:3000) i nettleseren din.
-
----
-
-## 🛠️ Teknologier brukt
-
-- **Next.js** – React-rammeverk med SSR og filbasert routing
-- **TypeScript** – Statisk typet JavaScript
-- **Tailwind CSS** – Utility-first stilark
-- **React Context API** – For språk- og datahåndtering
-- **JSON-basert oversettelse** – Enkel i18n-struktur
-
----
-
-## 🗂️ Prosjektstruktur
-
+4. **Åpne nettleseren**
 ```
-trevl/
-├── app/                     # Sider og routing
-├── components/              # UI- og layoutkomponenter
-├── public/                   # Bilder og statiske filer
-│   ├── images/               # Reisebilder og logoer
-│   └── data/captions/        # Bildetekstfiler (per språk)
-├── styles/                   # Globale stilark
-├── package.json              # Scripts og avhengigheter
-└── tailwind.config.js        # Tailwind-konfigurasjon
+http://localhost:3000
 ```
 
----
+## 🛠️ Bygget Med
 
-## 📸 Eksempel på nettsiden
+- **[Next.js](https://nextjs.org)** - React rammeverk
+- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS rammeverk
+- **[TypeScript](https://www.typescriptlang.org)** - Programmeringsspråk
+- **[Vercel Analytics](https://vercel.com/analytics)** - Ytelsesovervåking
+- **[React Context API](https://react.dev/reference/react/useContext)** - Tilstandshåndtering
 
-<p align="center">
-  <img src="public/images/trevl-screenshot.png" alt="Trevl-skjermbilde" width="500"/>
-</p>
+## 📝 Dokumentasjon
 
----
+Prosjektet inneholder omfattende dokumentasjon i `/docs`-mappen:
 
-## ✨ Hva inneholder siden?
+- [Kom i Gang](docs/getting-started.md) - Installasjon og oppsett
+- [Prosjektstruktur](docs/project-structure.md) - Detaljert mappestruktur
+- [Bidra](docs/contributing.md) - Retningslinjer for bidrag
+- [Fremtidsplaner](docs/roadmap.md) - Planlagte funksjoner og forbedringer
 
-- 🌍 Flerspråklig støtte (Norsk, Engelsk, Spansk – flere kommer)
-- 🖼 Album per destinasjon
-- 📄 Bildetekster via JSON-filer
-- 📱 Responsivt design
-- ⚡ Lynrask navigasjon med Next.js
-- 🎨 Tilpassede logoer og tema
+## 🌍 Støttede Språk
 
----
+- 🇳🇴 Norsk
+- 🇬🇧 Engelsk
+- 🇪🇸 Spansk
+- 🇹🇼 Tradisjonell Kinesisk
 
-## 🔧 Videre utvikling
+## 🌍 Destinasjoner
 
-Planer for fremtiden:
-- 🗺 Interaktivt kart over reisemål
-- 🔍 Søkefunksjon
-- 🎵 Mulighet for musikk/lydspor
-- 🖊 Adminpanel for opplasting
-
----
-
-## ✍️ Signatur
-
-```
-//  One bug to find them,
-//  One fix to bring them all,
-//  And in the darkness bind them.
-```
+- 🇳o Amsterdam
+- 🇳🇴 Fredrikstad
+- 🇳o Oslo
+- 🇹🇭 Thailand
 
 ---
 
-## 📬 Kontakt
-
-Send meg gjerne en melding hvis du ønsker å samarbeide eller gi tilbakemelding!
+<div align="center">
+  <i>"One bug to find them, one fix to bring them all, and in the darkness bind them."</i>
+  <br>
+  <sub>Laget med ❤️ av Marcus</sub>
+</div>
