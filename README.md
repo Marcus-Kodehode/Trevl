@@ -1,43 +1,6 @@
 <div align="center">
   <p>
-    <img src="/public/images/logo.png" alt="Trevl Log## 📸 Destinasjoner
-
-- 🇳🇱 Amsterdam
-- 🇳🇴 Fredrikstad
-- 🇳🇴 Oslo
-- 🇹🇭 Thailand
-
-## 📦 Bygg for Produksjon
-
-```bash
-npm run build
-npm start
-```
-
-Bygget vil være klart for deployment til din foretrukne hostingtjeneste.
-
-## 🔍 Scripts
-
-```bash
-npm run dev      # Start utviklingsserver
-npm run build   # Bygg for produksjon
-npm start      # Start produksjonsserver
-npm run lint   # Kjør linting
-```
-
-## 📄 Lisens
-
-Dette prosjektet er lisensiert under MIT-lisensen - se [LICENSE](LICENSE) filen for detaljer.
-
----
-
-<div align="center">
-  <i>"Ikke alle som vandrer er borte"</i>
-  <br>
-  <sub>Laget med ❤️ av Marcus</sub>
-  <br>
-  <sub>© 2025 Marcus-Kodehode. MIT License.</sub>
-</div> />
+    <img src="/public/images/logo.png" alt="Trevl Logo" width="150" />
   </p>
   <p>
     <img src="/public/images/logo-sunset.png" alt="Trevl Sunset Logo" width="150" />
@@ -47,10 +10,11 @@ Dette prosjektet er lisensiert under MIT-lisensen - se [LICENSE](LICENSE) filen 
   
   > Din digitale reisefotodagbok bygget med Next.js og Tailwind CSS
   
-  [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org)
+  [![Next.js](https://img.shields.io/badge/Next.js-15.4-black.svg)](https://nextjs.org)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg)](https://tailwindcss.com)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6.svg)](https://www.typescriptlang.org)
   [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000.svg)](https://vercel.com)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
 ## ✨ Hovedfunksjoner
@@ -61,12 +25,8 @@ Dette prosjektet er lisensiert under MIT-lisensen - se [LICENSE](LICENSE) filen 
 - ⚡ Lynrask navigasjon med Next.js
 - 🎨 Moderne og minimalistisk design
 - 📝 Detaljerte bildetekster på flere språk
-
-## 🖼️ Skjermbilde
-
-<div align="center">
-  <img src="/public/images/trevl-screenshot.png" alt="Trevl Screenshot" width="800" />
-</div>
+- 🌅 Automatisk bildeoptimalisering
+- 🔄 Sømløs språkbytting
 
 ## 🚀 Kom i Gang
 
@@ -115,17 +75,30 @@ Prosjektet inneholder omfattende dokumentasjon i `/docs`-mappen:
 - 🇪🇸 Spansk
 - 🇹🇼 Tradisjonell Kinesisk
 
-## 🌍 Destinasjoner
+## 🗺️ Destinasjoner
 
-- 🇳o Amsterdam
-- 🇳🇴 Fredrikstad
-- 🇳o Oslo
-- 🇹🇭 Thailand
+- 🇳🇱 Amsterdam - Kanalenes by
+- 🇳🇴 Fredrikstad - Gamlebyens sjarm
+- 🇳🇴 Oslo - Hovedstadens skatter
+- 🇹🇭 Thailand - Tropisk paradis
+
+## 🔧 Scripts
+
+```bash
+npm run dev      # Start utviklingsserver
+npm run build   # Bygg for produksjon
+npm start      # Start produksjonsserver
+npm run lint   # Kjør linting
+```
+
+## 📄 Lisens
+
+Dette prosjektet er lisensiert under MIT-lisensen - se [LICENSE](LICENSE) filen for detaljer.
 
 ---
 
 <div align="center">
-  <i>"One bug to find them, one fix to bring them all, and in the darkness bind them."</i>
+  <i>"The road goes ever on and on, down from the door where it began..."</i>
   <br>
   <sub>Laget med ❤️ av Marcus</sub>
 </div>
