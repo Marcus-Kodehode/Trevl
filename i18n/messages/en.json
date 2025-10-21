@@ -18,6 +18,7 @@
     "fredrikstad_title": "Fredrikstad – July 2025",
     "fredrikstad_desc": "See photos and moments from my trip to Fredrikstad.",
     "praha_title": "Prague – October 2025",
+    "praha_desc": "See photos and moments from my trip to Prague.",
     "coming_soon": "Trip planned — photos and memories coming soon."
   },
   "card": { "comingSoon": "Coming soon" },
@@ -48,6 +49,10 @@
   "fredrikstad2025": {
     "title": "Fredrikstad – July 2025",
     "intro": "Here are photos and experiences from my trip to Fredrikstad!"
+  },
+  "praha2025": {
+    "title": "Prague – October 2025",
+    "intro": "Here are photos and experiences from my trip to Prague!"
     }
   }
 }
