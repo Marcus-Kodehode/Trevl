@@ -3,10 +3,12 @@
 import React, { createContext, useMemo, useState } from "react";
 import no from "./no.json";
 import en from "./en.json";
-import es from "./es.json";
-import zhHant from "./zh-Hant.json"; // ⬅️ NY
+import esMX from "./es-MX.json";
+import zhHant from "./zh-Hant.json";
+import tr from "./tr.json";
+import sw from "./sw.json";
 
-type Lang = "no" | "en" | "es" | "zh-Hant";
+type Lang = "no" | "en" | "es-MX" | "zh-Hant" | "tr" | "sw";
 type Dict = Record<string, unknown>;
 
 // Simple dot-path getter
@@ -23,7 +25,7 @@ function get(obj: Dict, path: string): unknown {
   }, obj);
 }
 
-const DICTS: Record<Lang, Dict> = { no, en, es, "zh-Hant": zhHant };
+const DICTS: Record<Lang, Dict> = { no, en, "es-MX": esMX, "zh-Hant": zhHant, tr, sw };
 
 type Ctx = {
   lang: Lang;
@@ -51,8 +53,10 @@ export function I18nProvider({
     if (
       stored === "no" ||
       stored === "en" ||
-      stored === "es" ||
-      stored === "zh-Hant"
+      stored === "es-MX" ||
+      stored === "zh-Hant" ||
+      stored === "tr" ||
+      stored === "sw"
     ) {
       setLangState(stored);
     }

@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import { useI18n } from "@/i18n/messages/I18nProvider";
 import useT from "@/i18n/messages/useT";
 
-type LangCode = "no" | "en" | "es" | "zh-Hant";
+type LangCode = "no" | "en" | "es-MX" | "zh-Hant" | "tr" | "sw";
 
 const DESTS = [
   { key: "thailand", href: "/trips/thailand" },
@@ -19,8 +19,10 @@ const DESTS = [
 const LANGS: { code: LangCode; label: string; flag: string }[] = [
   { code: "no", label: "Norsk", flag: "/images/flags/no.png" },
   { code: "en", label: "English", flag: "/images/flags/gb.png" },
-  { code: "es", label: "Español", flag: "/images/flags/es.png" },
+  { code: "es-MX", label: "Español (MX)", flag: "/images/flags/mx.png" },
   { code: "zh-Hant", label: "繁體中文", flag: "/images/flags/tw.png" },
+  { code: "tr", label: "Türkçe", flag: "/images/flags/tr.png" },
+  { code: "sw", label: "Kiswahili", flag: "/images/flags/tz.png" },
 ];
 
 export default function MobileMenu() {
