@@ -1,29 +1,44 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import LanguageSwitcher from "./LanguageSwitcher";
+import { useI18n } from "@/i18n/messages/I18nProvider";
 import useT from "@/i18n/messages/useT";
+
+type LangCode = "no" | "en" | "es" | "zh-Hant";
 
 const DESTS = [
   { key: "thailand", href: "/trips/thailand" },
   { key: "oslo", href: "/trips/oslo" },
   { key: "amsterdam", href: "/trips/amsterdam" },
   { key: "fredrikstad", href: "/trips/fredrikstad" },
-  // { key: "prague", href: "/trips/praha" },
+  { key: "prague", href: "/trips/praha" },
+];
+
+const LANGS: { code: LangCode; label: string; flag: string }[] = [
+  { code: "no", label: "Norsk", flag: "/images/flags/no.png" },
+  { code: "en", label: "English", flag: "/images/flags/gb.png" },
+  { code: "es", label: "Español", flag: "/images/flags/es.png" },
+  { code: "zh-Hant", label: "繁體中文", flag: "/images/flags/tw.png" },
 ];
 
 export default function MobileMenu() {
   const t = useT();
+  const { lang, setLang } = useI18n();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [destDropdownOpen, setDestDropdownOpen] = useState(false);
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
+
+  const currentLang = LANGS.find((l) => l.code === lang) || LANGS[0];
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setMenuOpen(false);
-        setDropdownOpen(false);
+        setDestDropdownOpen(false);
+        setLangDropdownOpen(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -43,11 +58,11 @@ export default function MobileMenu() {
           </Link>
 
           <div className="flex flex-col items-center gap-2">
-            <button onClick={() => setDropdownOpen(!dropdownOpen)} className="text-2xl font-semibold">
+            <button onClick={() => setDestDropdownOpen(!destDropdownOpen)} className="text-2xl font-semibold">
               {t("header.destinations")} ▾
             </button>
 
-            {dropdownOpen && (
+            {destDropdownOpen && (
               <div className="flex flex-col items-center gap-2 mt-2 text-lg text-zinc-300">
                 {DESTS.map(d => (
                   <Link
@@ -63,7 +78,48 @@ export default function MobileMenu() {
             )}
           </div>
 
-          <LanguageSwitcher compact />
+          <div className="flex flex-col items-center gap-2">
+            <button
+              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              className="flex items-center gap-2 text-2xl font-semibold"
+            >
+              <Image
+                src={currentLang.flag}
+                alt={currentLang.label}
+                width={24}
+                height={24}
+                className="rounded-sm"
+              />
+              <span>{currentLang.label}</span>
+              <span className="text-lg">▾</span>
+            </button>
+
+            {langDropdownOpen && (
+              <div className="flex flex-col items-center gap-2 mt-2 text-lg text-zinc-300">
+                {LANGS.map((l) => (
+                  <button
+                    key={l.code}
+                    onClick={() => {
+                      setLang(l.code);
+                      setLangDropdownOpen(false);
+                    }}
+                    className={`flex items-center gap-2 hover:text-white ${
+                      lang === l.code ? "text-lime-400" : ""
+                    }`}
+                  >
+                    <Image
+                      src={l.flag}
+                      alt={l.label}
+                      width={20}
+                      height={20}
+                      className="rounded-sm"
+                    />
+                    <span>{l.label}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       )}
     </div>

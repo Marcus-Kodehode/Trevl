@@ -10,7 +10,7 @@ const DESTS = [
   { key: "oslo", href: "/trips/oslo" },
   { key: "amsterdam", href: "/trips/amsterdam" },
   { key: "fredrikstad", href: "/trips/fredrikstad" },
-  // { key: "prague", href: "/trips/praha" }, // legg til når siden er klar
+  { key: "prague", href: "/trips/praha" },
 ];
 
 export default function Header() {

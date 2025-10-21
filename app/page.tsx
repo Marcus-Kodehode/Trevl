@@ -43,10 +43,9 @@ export default function HomePage() {
 
       <AlbumCard
         title={t("home.praha_title")}
-        description={t("home.coming_soon")}
+        description={t("home.praha_desc")}
         link="/trips/praha"
         image="/images/cards/praha.png"
-        isComingSoon
       />
       </div>
     </main>
